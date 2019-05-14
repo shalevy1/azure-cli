@@ -1,7 +1,7 @@
 interactions:
 - request:
     body: '{"location": "eastus", "tags": {"product": "azurecli", "cause": "automation",
-      "date": "2019-05-02T17:39:36Z"}}'
+      "date": "2019-05-13T23:43:41Z"}}'
     headers:
       Accept:
       - application/json
@@ -19,14 +19,14 @@ interactions:
       - --location --name --tag
       User-Agent:
       - python/3.7.2 (Darwin-18.5.0-x86_64-i386-64bit) msrest/0.6.6 msrest_azure/0.6.0
-        resourcemanagementclient/2.1.0 Azure-SDK-For-Python AZURECLI/2.0.63
+        resourcemanagementclient/2.1.0 Azure-SDK-For-Python AZURECLI/2.0.64
       accept-language:
       - en-US
     method: PUT
     uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourcegroups/clitest000001?api-version=2018-05-01
   response:
     body:
-      string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001","name":"clitest000001","location":"eastus","tags":{"product":"azurecli","cause":"automation","date":"2019-05-02T17:39:36Z"},"properties":{"provisioningState":"Succeeded"}}'
+      string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001","name":"clitest000001","location":"eastus","tags":{"product":"azurecli","cause":"automation","date":"2019-05-13T23:43:41Z"},"properties":{"provisioningState":"Succeeded"}}'
     headers:
       cache-control:
       - no-cache
@@ -35,7 +35,7 @@ interactions:
       content-type:
       - application/json; charset=utf-8
       date:
-      - Thu, 02 May 2019 17:39:39 GMT
+      - Mon, 13 May 2019 23:43:43 GMT
       expires:
       - '-1'
       pragma:
@@ -45,7 +45,7 @@ interactions:
       x-content-type-options:
       - nosniff
       x-ms-ratelimit-remaining-subscription-writes:
-      - '1199'
+      - '1195'
     status:
       code: 201
       message: Created
@@ -64,7 +64,7 @@ interactions:
       - -n --skip-assignment
       User-Agent:
       - python/3.7.2 (Darwin-18.5.0-x86_64-i386-64bit) msrest/0.6.6 msrest_azure/0.6.0
-        azure-graphrbac/0.60.0 Azure-SDK-For-Python AZURECLI/2.0.63
+        azure-graphrbac/0.60.0 Azure-SDK-For-Python AZURECLI/2.0.64
       accept-language:
       - en-US
     method: GET
@@ -84,19 +84,19 @@ interactions:
       dataserviceversion:
       - 3.0;
       date:
-      - Thu, 02 May 2019 17:39:40 GMT
+      - Mon, 13 May 2019 23:43:44 GMT
       duration:
-      - '483945'
+      - '699638'
       expires:
       - '-1'
       ocp-aad-diagnostics-server-name:
-      - O4KpSJbi5/6YCC+tDQQlh4m8zzG+ja7BdgLs4Moxbzs=
+      - 7G98t5jXPmdc39u36x9DSb0cC/ny+jmdWuhB0dVG1QM=
       ocp-aad-session-key:
-      - JEw-Xvu9MSxY_jG78q1jm6gMCjfVkrOT93ln0zCt0-aPPju4wTHCt4ZAmQUs_ROV0cKJDMde6vGtxMHYkepF1CZdWq0d5QiPs2QYGJ16sFfnIfQ-8eaL2HIFHZA82nPxCJjCcf4BQWopBNtY97uyMQ.OiARxc1hgamPs2-KoyFlc4rWhHQpx6bAXAKjuur0AoM
+      - kzW4ILFIRF8PaNiGJ762pufQYJhhsRK4mxwOJZ2nChewbf9mgNnkCXKMaZ6xWgbnAhmH9yd7l8Er1V3csZHeQgR5bJcGN1oOC7Gqzz52klXvblchL4IGRox6fIv-H4n0YoPL_CTScD_cclzxg0y4OQ.Pnk7MOcYPRZz_lOsKn51dnqhLlScSQvlJToPD5H9tlc
       pragma:
       - no-cache
       request-id:
-      - 9f35759a-c590-436a-b773-08408ae37a85
+      - 7470ef71-9557-4603-9fd2-a71377290b70
       strict-transport-security:
       - max-age=31536000; includeSubDomains
       x-aspnet-version:
@@ -123,7 +123,7 @@ interactions:
       - -n --skip-assignment
       User-Agent:
       - python/3.7.2 (Darwin-18.5.0-x86_64-i386-64bit) msrest/0.6.6 msrest_azure/0.6.0
-        azure-graphrbac/0.60.0 Azure-SDK-For-Python AZURECLI/2.0.63
+        azure-graphrbac/0.60.0 Azure-SDK-For-Python AZURECLI/2.0.64
       accept-language:
       - en-US
     method: GET
@@ -143,19 +143,19 @@ interactions:
       dataserviceversion:
       - 3.0;
       date:
-      - Thu, 02 May 2019 17:39:40 GMT
+      - Mon, 13 May 2019 23:43:45 GMT
       duration:
-      - '498629'
+      - '712938'
       expires:
       - '-1'
       ocp-aad-diagnostics-server-name:
-      - 6nXKrctRtSptRoHzozTVMUA02WQGzIDDAMhbiPlyMGM=
+      - UJod7VmkPiqRZ3LL8q1JqdoyPpXCav9KRxab7im3lsM=
       ocp-aad-session-key:
-      - PKWlK_B5JBRcau23MXvKCsWbXeos_u-w5le2tqAV3n6_qf_iGCp_Bc-kem-pNRYnNvqj3xd8rvcHeibDWyUs7vtQ4QnnMW0Gssxtx94FHv0cfvYZID1DY_boJcO8mX9FTSA9tafiyHbjI3qozHZlqA.YDnWXBo92yrbL8waD5CyUbMLUY0jglexVcgu5wo53gM
+      - obvRdDfNoDcsKyGsuXtCXR34bmjW22TYCjkPy8mpdyBuobHRwlf8BG38if-oJlc2jveJdM-_ENXzQzV5QFjxoPfO53rAkd2wLJcjjkrIMX4L_isA4n_MCBVgJSzJCKKiAhSWhTIMn_wo8rwiuMzvLg.b-8icYgcq21glWTogVMUC2eqYFORNY7f3OgvEE81TpY
       pragma:
       - no-cache
       request-id:
-      - 950b7569-da5c-4a8c-9e71-e79408cf0fc3
+      - d15f6c41-58e2-4c61-b4ad-110024650824
       strict-transport-security:
       - max-age=31536000; includeSubDomains
       x-aspnet-version:
@@ -169,9 +169,9 @@ interactions:
       message: OK
 - request:
     body: 'b''{"availableToOtherTenants": false, "homepage": "https://clitest000002",
-      "passwordCredentials": [{"startDate": "2019-05-02T17:39:39.84008Z", "endDate":
-      "2020-05-02T17:39:39.84008Z", "keyId": "c2ca8adb-f379-4c25-8a51-fbfca12c2fad",
-      "value": "8695ed3b-6b5f-4082-9c53-3c3420314d3a", "customKeyIdentifier": "//5yAGIAYQBjAA=="}],
+      "passwordCredentials": [{"startDate": "2019-05-13T23:43:45.323433Z", "endDate":
+      "2020-05-13T23:43:45.323433Z", "keyId": "ecca221e-e3fc-4aa2-a5a0-f257f0a5a7f8",
+      "value": "b160e205-83b8-4d2e-ac45-ef78f8baa157", "customKeyIdentifier": "//5yAGIAYQBjAA=="}],
       "displayName": "clitest000002", "identifierUris": ["http://clitest000002"]}'''
     headers:
       Accept:
@@ -183,53 +183,53 @@ interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '432'
+      - '434'
       Content-Type:
       - application/json; charset=utf-8
       ParameterSetName:
       - -n --skip-assignment
       User-Agent:
       - python/3.7.2 (Darwin-18.5.0-x86_64-i386-64bit) msrest/0.6.6 msrest_azure/0.6.0
-        azure-graphrbac/0.60.0 Azure-SDK-For-Python AZURECLI/2.0.63
+        azure-graphrbac/0.60.0 Azure-SDK-For-Python AZURECLI/2.0.64
       accept-language:
       - en-US
     method: POST
     uri: https://graph.windows.net/00000000-0000-0000-0000-000000000000/applications?api-version=1.6
   response:
     body:
-      string: '{"odata.metadata":"https://graph.windows.net/00000000-0000-0000-0000-000000000000/$metadata#directoryObjects/@Element","odata.type":"Microsoft.DirectoryServices.Application","objectType":"Application","objectId":"991b2926-a746-41b5-aa1e-7a22beffb38b","deletionTimestamp":null,"acceptMappedClaims":null,"addIns":[],"appId":"1a807db4-2228-4275-8b54-16c16b7b098b","applicationTemplateId":null,"appRoles":[],"availableToOtherTenants":false,"displayName":"clitest000002","errorUrl":null,"groupMembershipClaims":null,"homepage":"https://clitest000002","identifierUris":["http://clitest000002"],"informationalUrls":{"termsOfService":null,"support":null,"privacy":null,"marketing":null},"isDeviceOnlyAuthSupported":null,"keyCredentials":[],"knownClientApplications":[],"logoutUrl":null,"logo@odata.mediaEditLink":"directoryObjects/991b2926-a746-41b5-aa1e-7a22beffb38b/Microsoft.DirectoryServices.Application/logo","logo@odata.mediaContentType":"application/json;odata=minimalmetadata;
-        charset=utf-8","logoUrl":null,"mainLogo@odata.mediaEditLink":"directoryObjects/991b2926-a746-41b5-aa1e-7a22beffb38b/Microsoft.DirectoryServices.Application/mainLogo","oauth2AllowIdTokenImplicitFlow":true,"oauth2AllowImplicitFlow":false,"oauth2AllowUrlPathMatching":false,"oauth2Permissions":[{"adminConsentDescription":"Allow
+      string: '{"odata.metadata":"https://graph.windows.net/00000000-0000-0000-0000-000000000000/$metadata#directoryObjects/@Element","odata.type":"Microsoft.DirectoryServices.Application","objectType":"Application","objectId":"10907af9-fa00-418c-b6f0-b50ab8325fbc","deletionTimestamp":null,"acceptMappedClaims":null,"addIns":[],"appId":"4976df7f-e541-4224-bec7-698cee881a7d","applicationTemplateId":null,"appRoles":[],"availableToOtherTenants":false,"displayName":"clitest000002","errorUrl":null,"groupMembershipClaims":null,"homepage":"https://clitest000002","identifierUris":["http://clitest000002"],"informationalUrls":{"termsOfService":null,"support":null,"privacy":null,"marketing":null},"isDeviceOnlyAuthSupported":null,"keyCredentials":[],"knownClientApplications":[],"logoutUrl":null,"logo@odata.mediaEditLink":"directoryObjects/10907af9-fa00-418c-b6f0-b50ab8325fbc/Microsoft.DirectoryServices.Application/logo","logo@odata.mediaContentType":"application/json;odata=minimalmetadata;
+        charset=utf-8","logoUrl":null,"mainLogo@odata.mediaEditLink":"directoryObjects/10907af9-fa00-418c-b6f0-b50ab8325fbc/Microsoft.DirectoryServices.Application/mainLogo","oauth2AllowIdTokenImplicitFlow":true,"oauth2AllowImplicitFlow":false,"oauth2AllowUrlPathMatching":false,"oauth2Permissions":[{"adminConsentDescription":"Allow
         the application to access clitest000002 on behalf of the signed-in user.","adminConsentDisplayName":"Access
-        clitest000002","id":"7b6444d4-8982-4bc5-be19-51a5ad6e1ffd","isEnabled":true,"type":"User","userConsentDescription":"Allow
+        clitest000002","id":"b122e91f-80c3-4623-ba36-389a5f7353c1","isEnabled":true,"type":"User","userConsentDescription":"Allow
         the application to access clitest000002 on your behalf.","userConsentDisplayName":"Access
-        clitest000002","value":"user_impersonation"}],"oauth2RequirePostResponse":false,"optionalClaims":null,"orgRestrictions":[],"parentalControlSettings":{"countriesBlockedForMinors":[],"legalAgeGroupRule":"Allow"},"passwordCredentials":[{"customKeyIdentifier":"//5yAGIAYQBjAA==","endDate":"2020-05-02T17:39:39.84008Z","keyId":"c2ca8adb-f379-4c25-8a51-fbfca12c2fad","startDate":"2019-05-02T17:39:39.84008Z","value":null}],"publicClient":null,"publisherDomain":"AzureSDKTeam.onmicrosoft.com","recordConsentConditions":null,"replyUrls":[],"requiredResourceAccess":[],"samlMetadataUrl":null,"signInAudience":"AzureADMyOrg","tokenEncryptionKeyId":null}'
+        clitest000002","value":"user_impersonation"}],"oauth2RequirePostResponse":false,"optionalClaims":null,"orgRestrictions":[],"parentalControlSettings":{"countriesBlockedForMinors":[],"legalAgeGroupRule":"Allow"},"passwordCredentials":[{"customKeyIdentifier":"//5yAGIAYQBjAA==","endDate":"2020-05-13T23:43:45.323433Z","keyId":"ecca221e-e3fc-4aa2-a5a0-f257f0a5a7f8","startDate":"2019-05-13T23:43:45.323433Z","value":null}],"publicClient":null,"publisherDomain":"microsoft.onmicrosoft.com","recordConsentConditions":null,"replyUrls":[],"requiredResourceAccess":[],"samlMetadataUrl":null,"signInAudience":"AzureADMyOrg","tokenEncryptionKeyId":null}'
     headers:
       access-control-allow-origin:
       - '*'
       cache-control:
       - no-cache
       content-length:
-      - '2343'
+      - '2342'
       content-type:
       - application/json; odata=minimalmetadata; streaming=true; charset=utf-8
       dataserviceversion:
       - 3.0;
       date:
-      - Thu, 02 May 2019 17:39:40 GMT
+      - Mon, 13 May 2019 23:43:45 GMT
       duration:
-      - '2559930'
+      - '6585006'
       expires:
       - '-1'
       location:
-      - https://graph.windows.net/00000000-0000-0000-0000-000000000000/directoryObjects/991b2926-a746-41b5-aa1e-7a22beffb38b/Microsoft.DirectoryServices.Application
+      - https://graph.windows.net/00000000-0000-0000-0000-000000000000/directoryObjects/10907af9-fa00-418c-b6f0-b50ab8325fbc/Microsoft.DirectoryServices.Application
       ocp-aad-diagnostics-server-name:
-      - lmh4uV9dRst8pgCGYL7c2IeXRHfrviQ1EsDxe5f7RfI=
+      - pXlXQrc9MSPlRSTdMmTrsa5qwcKpymyDfVLM9CfOb1k=
       ocp-aad-session-key:
-      - d2bjxQBdkyc7qF5H12ik_6f_YHXzfdCRTb-CZr_SAwY29uqTCjfukay_0JqMxRRA7IXugBr1lmA9ScEmlQAOlNn4LXkYxqk071FlFHX-iETIj7j_j79L6I5qBXFdkrMWFPgCp2pvRB5_RR8Nbd5LCQ.iaeJJ4MVDp6cTjAgVkYbIILGeVOoU8gg7boiGxkjj_c
+      - dQZpYW6Ct9ZegIsFiohYRIUcdNF6m60ZQP7svz84Sf89iFh0fDCB6gf8_LjK2RciNU4VZsWXPK_roEi0D-fjil0OfLd9ftdwYd0w-tlwbmbnjOQfcQQwS33DV15-gEY34ettKgzc8p7Zk_FjRjaEhw._liAHVMmxHEFjucLjrW9aw4hgxYCRzDSQtTYXvtoonE
       pragma:
       - no-cache
       request-id:
-      - cdc7c63b-3379-4ce5-87fe-626dfbe80353
+      - 9bd66100-e505-4552-bfb1-46a9b82ca944
       strict-transport-security:
       - max-age=31536000; includeSubDomains
       x-aspnet-version:
@@ -242,7 +242,7 @@ interactions:
       code: 201
       message: Created
 - request:
-    body: '{"accountEnabled": "True", "appId": "1a807db4-2228-4275-8b54-16c16b7b098b"}'
+    body: '{"accountEnabled": "True", "appId": "4976df7f-e541-4224-bec7-698cee881a7d"}'
     headers:
       Accept:
       - application/json
@@ -260,45 +260,45 @@ interactions:
       - -n --skip-assignment
       User-Agent:
       - python/3.7.2 (Darwin-18.5.0-x86_64-i386-64bit) msrest/0.6.6 msrest_azure/0.6.0
-        azure-graphrbac/0.60.0 Azure-SDK-For-Python AZURECLI/2.0.63
+        azure-graphrbac/0.60.0 Azure-SDK-For-Python AZURECLI/2.0.64
       accept-language:
       - en-US
     method: POST
     uri: https://graph.windows.net/00000000-0000-0000-0000-000000000000/servicePrincipals?api-version=1.6
   response:
     body:
-      string: '{"odata.metadata":"https://graph.windows.net/00000000-0000-0000-0000-000000000000/$metadata#directoryObjects/@Element","odata.type":"Microsoft.DirectoryServices.ServicePrincipal","objectType":"ServicePrincipal","objectId":"1fcec20b-4c56-4a7a-b08b-05303a87ad97","deletionTimestamp":null,"accountEnabled":true,"addIns":[],"alternativeNames":[],"appDisplayName":"clitest000002","appId":"1a807db4-2228-4275-8b54-16c16b7b098b","applicationTemplateId":null,"appOwnerTenantId":"54826b22-38d6-4fb2-bad9-b7b93a3e9c5a","appRoleAssignmentRequired":false,"appRoles":[],"displayName":"clitest000002","errorUrl":null,"homepage":"https://clitest000002","informationalUrls":{"termsOfService":null,"support":null,"privacy":null,"marketing":null},"keyCredentials":[],"logoutUrl":null,"notificationEmailAddresses":[],"oauth2Permissions":[{"adminConsentDescription":"Allow
+      string: '{"odata.metadata":"https://graph.windows.net/00000000-0000-0000-0000-000000000000/$metadata#directoryObjects/@Element","odata.type":"Microsoft.DirectoryServices.ServicePrincipal","objectType":"ServicePrincipal","objectId":"7d5393f1-dd02-488b-923a-a0b30fee8668","deletionTimestamp":null,"accountEnabled":true,"addIns":[],"alternativeNames":[],"appDisplayName":"clitest000002","appId":"4976df7f-e541-4224-bec7-698cee881a7d","applicationTemplateId":null,"appOwnerTenantId":"72f988bf-86f1-41af-91ab-2d7cd011db47","appRoleAssignmentRequired":false,"appRoles":[],"displayName":"clitest000002","errorUrl":null,"homepage":"https://clitest000002","informationalUrls":{"termsOfService":null,"support":null,"privacy":null,"marketing":null},"keyCredentials":[],"logoutUrl":null,"notificationEmailAddresses":[],"oauth2Permissions":[{"adminConsentDescription":"Allow
         the application to access clitest000002 on behalf of the signed-in user.","adminConsentDisplayName":"Access
-        clitest000002","id":"7b6444d4-8982-4bc5-be19-51a5ad6e1ffd","isEnabled":true,"type":"User","userConsentDescription":"Allow
+        clitest000002","id":"b122e91f-80c3-4623-ba36-389a5f7353c1","isEnabled":true,"type":"User","userConsentDescription":"Allow
         the application to access clitest000002 on your behalf.","userConsentDisplayName":"Access
-        clitest000002","value":"user_impersonation"}],"passwordCredentials":[],"preferredSingleSignOnMode":null,"preferredTokenSigningKeyEndDateTime":null,"preferredTokenSigningKeyThumbprint":null,"publisherName":"AzureSDKTeam","replyUrls":[],"samlMetadataUrl":null,"samlSingleSignOnSettings":null,"servicePrincipalNames":["1a807db4-2228-4275-8b54-16c16b7b098b","http://clitest000002"],"servicePrincipalType":"Application","signInAudience":"AzureADMyOrg","tags":[],"tokenEncryptionKeyId":null}'
+        clitest000002","value":"user_impersonation"}],"passwordCredentials":[],"preferredSingleSignOnMode":null,"preferredTokenSigningKeyEndDateTime":null,"preferredTokenSigningKeyThumbprint":null,"publisherName":"Microsoft","replyUrls":[],"samlMetadataUrl":null,"samlSingleSignOnSettings":null,"servicePrincipalNames":["4976df7f-e541-4224-bec7-698cee881a7d","http://clitest000002"],"servicePrincipalType":"Application","signInAudience":"AzureADMyOrg","tags":[],"tokenEncryptionKeyId":null}'
     headers:
       access-control-allow-origin:
       - '*'
       cache-control:
       - no-cache
       content-length:
-      - '1746'
+      - '1743'
       content-type:
       - application/json; odata=minimalmetadata; streaming=true; charset=utf-8
       dataserviceversion:
       - 3.0;
       date:
-      - Thu, 02 May 2019 17:39:40 GMT
+      - Mon, 13 May 2019 23:43:46 GMT
       duration:
-      - '1694538'
+      - '4918985'
       expires:
       - '-1'
       location:
-      - https://graph.windows.net/00000000-0000-0000-0000-000000000000/directoryObjects/1fcec20b-4c56-4a7a-b08b-05303a87ad97/Microsoft.DirectoryServices.ServicePrincipal
+      - https://graph.windows.net/00000000-0000-0000-0000-000000000000/directoryObjects/7d5393f1-dd02-488b-923a-a0b30fee8668/Microsoft.DirectoryServices.ServicePrincipal
       ocp-aad-diagnostics-server-name:
-      - YaUr/QI8BdH2+9T2GuYNq7DhUfKmqQhjXjhZvXluhlA=
+      - k+a8loBjbxraN1otxCzpa/lm7sS3uSMfCmXQCJ5UeOg=
       ocp-aad-session-key:
-      - nDuNoVk9nJTMH03HO2BtUyKP0SBrgQq24CcRHRVnHVlBvbmtKuEbsafYi5OAjAbUFcAR3UgAUf_DwPTpZeIm7KfvC6y6q2_l9MZru84h8pKIPrhIcvP1VacHfzEW_OBQx2QE0vFKoGsPa8I35AvnwQ.ekKpv1Y0Qtpwu_nTD096Nanvd01QDFXgJyhh-f1D1aI
+      - pec1Qs09-YI5xrYeBs9oCcv5ceJZQnhYVyvz8N75dItQK1Oe8HnisWrHXTr4Drx51gQSlvxLFxSlGbhTRzxPCzdS-w7a1gUvmC2QWbcXu9Val5JZ3mUW-W1ImLKgAgsKGFKlOIAZge4xO5OFL5IIQg.wwboeaM9_kqgsIp81HQf_ifwC1SfN6wn1VSyo-T9ueo
       pragma:
       - no-cache
       request-id:
-      - a657db9b-810d-44b5-ba1c-dad90a99729d
+      - dbb72133-c3d1-4167-b0a3-932996cc573b
       strict-transport-security:
       - max-age=31536000; includeSubDomains
       x-aspnet-version:
@@ -325,14 +325,14 @@ interactions:
       - -n -g --address-prefix --subnet-name --subnet-prefix
       User-Agent:
       - python/3.7.2 (Darwin-18.5.0-x86_64-i386-64bit) msrest/0.6.6 msrest_azure/0.6.0
-        resourcemanagementclient/2.1.0 Azure-SDK-For-Python AZURECLI/2.0.63
+        resourcemanagementclient/2.1.0 Azure-SDK-For-Python AZURECLI/2.0.64
       accept-language:
       - en-US
     method: GET
     uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourcegroups/clitest000001?api-version=2018-05-01
   response:
     body:
-      string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001","name":"clitest000001","location":"eastus","tags":{"product":"azurecli","cause":"automation","date":"2019-05-02T17:39:36Z"},"properties":{"provisioningState":"Succeeded"}}'
+      string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001","name":"clitest000001","location":"eastus","tags":{"product":"azurecli","cause":"automation","date":"2019-05-13T23:43:41Z"},"properties":{"provisioningState":"Succeeded"}}'
     headers:
       cache-control:
       - no-cache
@@ -341,7 +341,7 @@ interactions:
       content-type:
       - application/json; charset=utf-8
       date:
-      - Thu, 02 May 2019 17:39:41 GMT
+      - Mon, 13 May 2019 23:43:46 GMT
       expires:
       - '-1'
       pragma:
@@ -376,7 +376,7 @@ interactions:
       - -n -g --address-prefix --subnet-name --subnet-prefix
       User-Agent:
       - python/3.7.2 (Darwin-18.5.0-x86_64-i386-64bit) msrest/0.6.6 msrest_azure/0.6.0
-        networkmanagementclient/2.7.0 Azure-SDK-For-Python AZURECLI/2.0.63
+        networkmanagementclient/2.7.0 Azure-SDK-For-Python AZURECLI/2.0.64
       accept-language:
       - en-US
     method: PUT
@@ -384,15 +384,15 @@ interactions:
   response:
     body:
       string: "{\r\n  \"name\": \"clivnet000004\",\r\n  \"id\": \"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.Network/virtualNetworks/clivnet000004\",\r\n
-        \ \"etag\": \"W/\\\"8a139245-4d9f-4e80-9c25-314a5bff142e\\\"\",\r\n  \"type\":
+        \ \"etag\": \"W/\\\"05fc7d1e-1d39-4452-923b-394bc32df5d7\\\"\",\r\n  \"type\":
         \"Microsoft.Network/virtualNetworks\",\r\n  \"location\": \"eastus\",\r\n
         \ \"tags\": {},\r\n  \"properties\": {\r\n    \"provisioningState\": \"Updating\",\r\n
-        \   \"resourceGuid\": \"29a03bfa-2c91-4866-9232-12b6c7ec77f8\",\r\n    \"addressSpace\":
+        \   \"resourceGuid\": \"b8256759-8d6c-4ac7-a53c-ecfeb916b886\",\r\n    \"addressSpace\":
         {\r\n      \"addressPrefixes\": [\r\n        \"192.168.0.0/16\"\r\n      ]\r\n
         \   },\r\n    \"dhcpOptions\": {\r\n      \"dnsServers\": []\r\n    },\r\n
         \   \"subnets\": [\r\n      {\r\n        \"name\": \"clisubnet000005\",\r\n
         \       \"id\": \"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.Network/virtualNetworks/clivnet000004/subnets/clisubnet000005\",\r\n
-        \       \"etag\": \"W/\\\"8a139245-4d9f-4e80-9c25-314a5bff142e\\\"\",\r\n
+        \       \"etag\": \"W/\\\"05fc7d1e-1d39-4452-923b-394bc32df5d7\\\"\",\r\n
         \       \"properties\": {\r\n          \"provisioningState\": \"Updating\",\r\n
         \         \"addressPrefix\": \"192.168.0.0/24\",\r\n          \"delegations\":
         []\r\n        },\r\n        \"type\": \"Microsoft.Network/virtualNetworks/subnets\"\r\n
@@ -400,7 +400,7 @@ interactions:
         false,\r\n    \"enableVmProtection\": false\r\n  }\r\n}"
     headers:
       azure-asyncoperation:
-      - https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/providers/Microsoft.Network/locations/eastus/operations/6fee82dd-6112-4df0-bbe4-19d4c7a073e9?api-version=2019-02-01
+      - https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/providers/Microsoft.Network/locations/eastus/operations/ae69fa64-bbf4-4d20-9b8f-be945b3b4ae9?api-version=2019-02-01
       cache-control:
       - no-cache
       content-length:
@@ -408,7 +408,7 @@ interactions:
       content-type:
       - application/json; charset=utf-8
       date:
-      - Thu, 02 May 2019 17:39:43 GMT
+      - Mon, 13 May 2019 23:43:48 GMT
       expires:
       - '-1'
       pragma:
@@ -421,7 +421,7 @@ interactions:
       x-content-type-options:
       - nosniff
       x-ms-ratelimit-remaining-subscription-writes:
-      - '1199'
+      - '1197'
     status:
       code: 201
       message: Created
@@ -440,21 +440,21 @@ interactions:
       - -n -g --address-prefix --subnet-name --subnet-prefix
       User-Agent:
       - python/3.7.2 (Darwin-18.5.0-x86_64-i386-64bit) msrest/0.6.6 msrest_azure/0.6.0
-        networkmanagementclient/2.7.0 Azure-SDK-For-Python AZURECLI/2.0.63
+        networkmanagementclient/2.7.0 Azure-SDK-For-Python AZURECLI/2.0.64
     method: GET
-    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/providers/Microsoft.Network/locations/eastus/operations/6fee82dd-6112-4df0-bbe4-19d4c7a073e9?api-version=2019-02-01
+    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/providers/Microsoft.Network/locations/eastus/operations/ae69fa64-bbf4-4d20-9b8f-be945b3b4ae9?api-version=2019-02-01
   response:
     body:
-      string: "{\r\n  \"status\": \"Succeeded\"\r\n}"
+      string: "{\r\n  \"status\": \"InProgress\"\r\n}"
     headers:
       cache-control:
       - no-cache
       content-length:
-      - '29'
+      - '30'
       content-type:
       - application/json; charset=utf-8
       date:
-      - Thu, 02 May 2019 17:39:49 GMT
+      - Mon, 13 May 2019 23:43:52 GMT
       expires:
       - '-1'
       pragma:
@@ -488,21 +488,69 @@ interactions:
       - -n -g --address-prefix --subnet-name --subnet-prefix
       User-Agent:
       - python/3.7.2 (Darwin-18.5.0-x86_64-i386-64bit) msrest/0.6.6 msrest_azure/0.6.0
-        networkmanagementclient/2.7.0 Azure-SDK-For-Python AZURECLI/2.0.63
+        networkmanagementclient/2.7.0 Azure-SDK-For-Python AZURECLI/2.0.64
+    method: GET
+    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/providers/Microsoft.Network/locations/eastus/operations/ae69fa64-bbf4-4d20-9b8f-be945b3b4ae9?api-version=2019-02-01
+  response:
+    body:
+      string: "{\r\n  \"status\": \"Succeeded\"\r\n}"
+    headers:
+      cache-control:
+      - no-cache
+      content-length:
+      - '29'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Mon, 13 May 2019 23:44:02 GMT
+      expires:
+      - '-1'
+      pragma:
+      - no-cache
+      server:
+      - Microsoft-HTTPAPI/2.0
+      - Microsoft-HTTPAPI/2.0
+      strict-transport-security:
+      - max-age=31536000; includeSubDomains
+      transfer-encoding:
+      - chunked
+      vary:
+      - Accept-Encoding
+      x-content-type-options:
+      - nosniff
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      CommandName:
+      - network vnet create
+      Connection:
+      - keep-alive
+      ParameterSetName:
+      - -n -g --address-prefix --subnet-name --subnet-prefix
+      User-Agent:
+      - python/3.7.2 (Darwin-18.5.0-x86_64-i386-64bit) msrest/0.6.6 msrest_azure/0.6.0
+        networkmanagementclient/2.7.0 Azure-SDK-For-Python AZURECLI/2.0.64
     method: GET
     uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.Network/virtualNetworks/clivnet000004?api-version=2019-02-01
   response:
     body:
       string: "{\r\n  \"name\": \"clivnet000004\",\r\n  \"id\": \"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.Network/virtualNetworks/clivnet000004\",\r\n
-        \ \"etag\": \"W/\\\"40aaf104-1632-44c7-aa3d-520ff6c648e8\\\"\",\r\n  \"type\":
+        \ \"etag\": \"W/\\\"796103ec-0a4d-424d-9730-b549204e95c8\\\"\",\r\n  \"type\":
         \"Microsoft.Network/virtualNetworks\",\r\n  \"location\": \"eastus\",\r\n
         \ \"tags\": {},\r\n  \"properties\": {\r\n    \"provisioningState\": \"Succeeded\",\r\n
-        \   \"resourceGuid\": \"29a03bfa-2c91-4866-9232-12b6c7ec77f8\",\r\n    \"addressSpace\":
+        \   \"resourceGuid\": \"b8256759-8d6c-4ac7-a53c-ecfeb916b886\",\r\n    \"addressSpace\":
         {\r\n      \"addressPrefixes\": [\r\n        \"192.168.0.0/16\"\r\n      ]\r\n
         \   },\r\n    \"dhcpOptions\": {\r\n      \"dnsServers\": []\r\n    },\r\n
         \   \"subnets\": [\r\n      {\r\n        \"name\": \"clisubnet000005\",\r\n
         \       \"id\": \"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.Network/virtualNetworks/clivnet000004/subnets/clisubnet000005\",\r\n
-        \       \"etag\": \"W/\\\"40aaf104-1632-44c7-aa3d-520ff6c648e8\\\"\",\r\n
+        \       \"etag\": \"W/\\\"796103ec-0a4d-424d-9730-b549204e95c8\\\"\",\r\n
         \       \"properties\": {\r\n          \"provisioningState\": \"Succeeded\",\r\n
         \         \"addressPrefix\": \"192.168.0.0/24\",\r\n          \"delegations\":
         []\r\n        },\r\n        \"type\": \"Microsoft.Network/virtualNetworks/subnets\"\r\n
@@ -516,9 +564,9 @@ interactions:
       content-type:
       - application/json; charset=utf-8
       date:
-      - Thu, 02 May 2019 17:39:50 GMT
+      - Mon, 13 May 2019 23:44:03 GMT
       etag:
-      - W/"40aaf104-1632-44c7-aa3d-520ff6c648e8"
+      - W/"796103ec-0a4d-424d-9730-b549204e95c8"
       expires:
       - '-1'
       pragma:
@@ -553,14 +601,14 @@ interactions:
         --vnet-subnet-id --skip-subnet-role-assignment --no-ssh-key
       User-Agent:
       - python/3.7.2 (Darwin-18.5.0-x86_64-i386-64bit) msrest/0.6.6 msrest_azure/0.6.0
-        resourcemanagementclient/2.1.0 Azure-SDK-For-Python AZURECLI/2.0.63
+        resourcemanagementclient/2.1.0 Azure-SDK-For-Python AZURECLI/2.0.64
       accept-language:
       - en-US
     method: GET
     uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourcegroups/clitest000001?api-version=2018-05-01
   response:
     body:
-      string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001","name":"clitest000001","location":"eastus","tags":{"product":"azurecli","cause":"automation","date":"2019-05-02T17:39:36Z"},"properties":{"provisioningState":"Succeeded"}}'
+      string: '{"id":"/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001","name":"clitest000001","location":"eastus","tags":{"product":"azurecli","cause":"automation","date":"2019-05-13T23:43:41Z"},"properties":{"provisioningState":"Succeeded"}}'
     headers:
       cache-control:
       - no-cache
@@ -569,7 +617,7 @@ interactions:
       content-type:
       - application/json; charset=utf-8
       date:
-      - Thu, 02 May 2019 17:39:51 GMT
+      - Mon, 13 May 2019 23:44:03 GMT
       expires:
       - '-1'
       pragma:
@@ -585,11 +633,11 @@ interactions:
       message: OK
 - request:
     body: 'b''b\''b\\\''b\\\\\\\''{"location": "eastus", "properties": {"kubernetesVersion":
-      "", "dnsPrefix": "cliakstest-clitestdh4xhiwcr-0b1f64", "agentPoolProfiles":
+      "", "dnsPrefix": "cliakstest-clitestxnmlv4jej-c9cbd9", "agentPoolProfiles":
       [{"name": "nodepool1", "count": 1, "vmSize": "Standard_DS2_v2", "vnetSubnetID":
       "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.Network/virtualNetworks/clivnet000004/subnets/clisubnet000005",
       "osType": "Linux"}], "servicePrincipalProfile": {"clientId": "clitest000002",
-      "secret": "8695ed3b-6b5f-4082-9c53-3c3420314d3a"}, "addonProfiles": {}, "enableRBAC":
+      "secret": "b160e205-83b8-4d2e-ac45-ef78f8baa157"}, "addonProfiles": {}, "enableRBAC":
       true}}\\\\\\\''\\\''\'''''
     headers:
       Accept:
@@ -609,7 +657,7 @@ interactions:
         --vnet-subnet-id --skip-subnet-role-assignment --no-ssh-key
       User-Agent:
       - python/3.7.2 (Darwin-18.5.0-x86_64-i386-64bit) msrest/0.6.6 msrest_azure/0.6.0
-        azure-mgmt-containerservice/5.2.0 Azure-SDK-For-Python AZURECLI/2.0.63
+        azure-mgmt-containerservice/5.2.0 Azure-SDK-For-Python AZURECLI/2.0.64
       accept-language:
       - en-US
     method: PUT
@@ -617,7 +665,7 @@ interactions:
   response:
     body:
       string: "{\n  \"code\": \"ServicePrincipalNotFound\",\n  \"message\": \"Service
-        principal clientID: clitest000002 not found in Active Directory tenant 54826b22-38d6-4fb2-bad9-b7b93a3e9c5a,
+        principal clientID: clitest000002 not found in Active Directory tenant 72f988bf-86f1-41af-91ab-2d7cd011db47,
         Please see https://aka.ms/aks-sp-help for more details.\"\n }"
     headers:
       cache-control:
@@ -627,547 +675,7 @@ interactions:
       content-type:
       - application/json
       date:
-      - Thu, 02 May 2019 17:40:10 GMT
-      expires:
-      - '-1'
-      pragma:
-      - no-cache
-      server:
-      - nginx
-      strict-transport-security:
-      - max-age=31536000; includeSubDomains
-      x-content-type-options:
-      - nosniff
-      x-ms-ratelimit-remaining-subscription-writes:
-      - '1199'
-    status:
-      code: 400
-      message: Bad Request
-- request:
-    body: 'b''b\''b\\\''b\\\\\\\''{"location": "eastus", "properties": {"kubernetesVersion":
-      "", "dnsPrefix": "cliakstest-clitestdh4xhiwcr-0b1f64", "agentPoolProfiles":
-      [{"name": "nodepool1", "count": 1, "vmSize": "Standard_DS2_v2", "vnetSubnetID":
-      "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.Network/virtualNetworks/clivnet000004/subnets/clisubnet000005",
-      "osType": "Linux"}], "servicePrincipalProfile": {"clientId": "clitest000002",
-      "secret": "8695ed3b-6b5f-4082-9c53-3c3420314d3a"}, "addonProfiles": {}, "enableRBAC":
-      true}}\\\\\\\''\\\''\'''''
-    headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip, deflate
-      CommandName:
-      - aks create
-      Connection:
-      - keep-alive
-      Content-Length:
-      - '570'
-      Content-Type:
-      - application/json; charset=utf-8
-      ParameterSetName:
-      - --resource-group --name --location --node-count --service-principal --client-secret
-        --vnet-subnet-id --skip-subnet-role-assignment --no-ssh-key
-      User-Agent:
-      - python/3.7.2 (Darwin-18.5.0-x86_64-i386-64bit) msrest/0.6.6 msrest_azure/0.6.0
-        azure-mgmt-containerservice/5.2.0 Azure-SDK-For-Python AZURECLI/2.0.63
-      accept-language:
-      - en-US
-    method: PUT
-    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.ContainerService/managedClusters/cliakstest000003?api-version=2019-02-01
-  response:
-    body:
-      string: "{\n  \"code\": \"ServicePrincipalNotFound\",\n  \"message\": \"Service
-        principal clientID: clitest000002 not found in Active Directory tenant 54826b22-38d6-4fb2-bad9-b7b93a3e9c5a,
-        Please see https://aka.ms/aks-sp-help for more details.\"\n }"
-    headers:
-      cache-control:
-      - no-cache
-      content-length:
-      - '241'
-      content-type:
-      - application/json
-      date:
-      - Thu, 02 May 2019 17:40:31 GMT
-      expires:
-      - '-1'
-      pragma:
-      - no-cache
-      server:
-      - nginx
-      strict-transport-security:
-      - max-age=31536000; includeSubDomains
-      x-content-type-options:
-      - nosniff
-      x-ms-ratelimit-remaining-subscription-writes:
-      - '1199'
-    status:
-      code: 400
-      message: Bad Request
-- request:
-    body: 'b''b\''b\\\''b\\\\\\\''{"location": "eastus", "properties": {"kubernetesVersion":
-      "", "dnsPrefix": "cliakstest-clitestdh4xhiwcr-0b1f64", "agentPoolProfiles":
-      [{"name": "nodepool1", "count": 1, "vmSize": "Standard_DS2_v2", "vnetSubnetID":
-      "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.Network/virtualNetworks/clivnet000004/subnets/clisubnet000005",
-      "osType": "Linux"}], "servicePrincipalProfile": {"clientId": "clitest000002",
-      "secret": "8695ed3b-6b5f-4082-9c53-3c3420314d3a"}, "addonProfiles": {}, "enableRBAC":
-      true}}\\\\\\\''\\\''\'''''
-    headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip, deflate
-      CommandName:
-      - aks create
-      Connection:
-      - keep-alive
-      Content-Length:
-      - '570'
-      Content-Type:
-      - application/json; charset=utf-8
-      ParameterSetName:
-      - --resource-group --name --location --node-count --service-principal --client-secret
-        --vnet-subnet-id --skip-subnet-role-assignment --no-ssh-key
-      User-Agent:
-      - python/3.7.2 (Darwin-18.5.0-x86_64-i386-64bit) msrest/0.6.6 msrest_azure/0.6.0
-        azure-mgmt-containerservice/5.2.0 Azure-SDK-For-Python AZURECLI/2.0.63
-      accept-language:
-      - en-US
-    method: PUT
-    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.ContainerService/managedClusters/cliakstest000003?api-version=2019-02-01
-  response:
-    body:
-      string: "{\n  \"code\": \"ServicePrincipalNotFound\",\n  \"message\": \"Service
-        principal clientID: clitest000002 not found in Active Directory tenant 54826b22-38d6-4fb2-bad9-b7b93a3e9c5a,
-        Please see https://aka.ms/aks-sp-help for more details.\"\n }"
-    headers:
-      cache-control:
-      - no-cache
-      content-length:
-      - '241'
-      content-type:
-      - application/json
-      date:
-      - Thu, 02 May 2019 17:40:56 GMT
-      expires:
-      - '-1'
-      pragma:
-      - no-cache
-      server:
-      - nginx
-      strict-transport-security:
-      - max-age=31536000; includeSubDomains
-      x-content-type-options:
-      - nosniff
-      x-ms-ratelimit-remaining-subscription-writes:
-      - '1199'
-    status:
-      code: 400
-      message: Bad Request
-- request:
-    body: 'b''b\''b\\\''b\\\\\\\''{"location": "eastus", "properties": {"kubernetesVersion":
-      "", "dnsPrefix": "cliakstest-clitestdh4xhiwcr-0b1f64", "agentPoolProfiles":
-      [{"name": "nodepool1", "count": 1, "vmSize": "Standard_DS2_v2", "vnetSubnetID":
-      "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.Network/virtualNetworks/clivnet000004/subnets/clisubnet000005",
-      "osType": "Linux"}], "servicePrincipalProfile": {"clientId": "clitest000002",
-      "secret": "8695ed3b-6b5f-4082-9c53-3c3420314d3a"}, "addonProfiles": {}, "enableRBAC":
-      true}}\\\\\\\''\\\''\'''''
-    headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip, deflate
-      CommandName:
-      - aks create
-      Connection:
-      - keep-alive
-      Content-Length:
-      - '570'
-      Content-Type:
-      - application/json; charset=utf-8
-      ParameterSetName:
-      - --resource-group --name --location --node-count --service-principal --client-secret
-        --vnet-subnet-id --skip-subnet-role-assignment --no-ssh-key
-      User-Agent:
-      - python/3.7.2 (Darwin-18.5.0-x86_64-i386-64bit) msrest/0.6.6 msrest_azure/0.6.0
-        azure-mgmt-containerservice/5.2.0 Azure-SDK-For-Python AZURECLI/2.0.63
-      accept-language:
-      - en-US
-    method: PUT
-    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.ContainerService/managedClusters/cliakstest000003?api-version=2019-02-01
-  response:
-    body:
-      string: "{\n  \"code\": \"ServicePrincipalNotFound\",\n  \"message\": \"Service
-        principal clientID: clitest000002 not found in Active Directory tenant 54826b22-38d6-4fb2-bad9-b7b93a3e9c5a,
-        Please see https://aka.ms/aks-sp-help for more details.\"\n }"
-    headers:
-      cache-control:
-      - no-cache
-      content-length:
-      - '241'
-      content-type:
-      - application/json
-      date:
-      - Thu, 02 May 2019 17:41:18 GMT
-      expires:
-      - '-1'
-      pragma:
-      - no-cache
-      server:
-      - nginx
-      strict-transport-security:
-      - max-age=31536000; includeSubDomains
-      x-content-type-options:
-      - nosniff
-      x-ms-ratelimit-remaining-subscription-writes:
-      - '1199'
-    status:
-      code: 400
-      message: Bad Request
-- request:
-    body: 'b''b\''b\\\''b\\\\\\\''{"location": "eastus", "properties": {"kubernetesVersion":
-      "", "dnsPrefix": "cliakstest-clitestdh4xhiwcr-0b1f64", "agentPoolProfiles":
-      [{"name": "nodepool1", "count": 1, "vmSize": "Standard_DS2_v2", "vnetSubnetID":
-      "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.Network/virtualNetworks/clivnet000004/subnets/clisubnet000005",
-      "osType": "Linux"}], "servicePrincipalProfile": {"clientId": "clitest000002",
-      "secret": "8695ed3b-6b5f-4082-9c53-3c3420314d3a"}, "addonProfiles": {}, "enableRBAC":
-      true}}\\\\\\\''\\\''\'''''
-    headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip, deflate
-      CommandName:
-      - aks create
-      Connection:
-      - keep-alive
-      Content-Length:
-      - '570'
-      Content-Type:
-      - application/json; charset=utf-8
-      ParameterSetName:
-      - --resource-group --name --location --node-count --service-principal --client-secret
-        --vnet-subnet-id --skip-subnet-role-assignment --no-ssh-key
-      User-Agent:
-      - python/3.7.2 (Darwin-18.5.0-x86_64-i386-64bit) msrest/0.6.6 msrest_azure/0.6.0
-        azure-mgmt-containerservice/5.2.0 Azure-SDK-For-Python AZURECLI/2.0.63
-      accept-language:
-      - en-US
-    method: PUT
-    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.ContainerService/managedClusters/cliakstest000003?api-version=2019-02-01
-  response:
-    body:
-      string: "{\n  \"code\": \"ServicePrincipalNotFound\",\n  \"message\": \"Service
-        principal clientID: clitest000002 not found in Active Directory tenant 54826b22-38d6-4fb2-bad9-b7b93a3e9c5a,
-        Please see https://aka.ms/aks-sp-help for more details.\"\n }"
-    headers:
-      cache-control:
-      - no-cache
-      content-length:
-      - '241'
-      content-type:
-      - application/json
-      date:
-      - Thu, 02 May 2019 17:41:45 GMT
-      expires:
-      - '-1'
-      pragma:
-      - no-cache
-      server:
-      - nginx
-      strict-transport-security:
-      - max-age=31536000; includeSubDomains
-      x-content-type-options:
-      - nosniff
-      x-ms-ratelimit-remaining-subscription-writes:
-      - '1199'
-    status:
-      code: 400
-      message: Bad Request
-- request:
-    body: 'b''b\''b\\\''b\\\\\\\''{"location": "eastus", "properties": {"kubernetesVersion":
-      "", "dnsPrefix": "cliakstest-clitestdh4xhiwcr-0b1f64", "agentPoolProfiles":
-      [{"name": "nodepool1", "count": 1, "vmSize": "Standard_DS2_v2", "vnetSubnetID":
-      "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.Network/virtualNetworks/clivnet000004/subnets/clisubnet000005",
-      "osType": "Linux"}], "servicePrincipalProfile": {"clientId": "clitest000002",
-      "secret": "8695ed3b-6b5f-4082-9c53-3c3420314d3a"}, "addonProfiles": {}, "enableRBAC":
-      true}}\\\\\\\''\\\''\'''''
-    headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip, deflate
-      CommandName:
-      - aks create
-      Connection:
-      - keep-alive
-      Content-Length:
-      - '570'
-      Content-Type:
-      - application/json; charset=utf-8
-      ParameterSetName:
-      - --resource-group --name --location --node-count --service-principal --client-secret
-        --vnet-subnet-id --skip-subnet-role-assignment --no-ssh-key
-      User-Agent:
-      - python/3.7.2 (Darwin-18.5.0-x86_64-i386-64bit) msrest/0.6.6 msrest_azure/0.6.0
-        azure-mgmt-containerservice/5.2.0 Azure-SDK-For-Python AZURECLI/2.0.63
-      accept-language:
-      - en-US
-    method: PUT
-    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.ContainerService/managedClusters/cliakstest000003?api-version=2019-02-01
-  response:
-    body:
-      string: "{\n  \"code\": \"ServicePrincipalNotFound\",\n  \"message\": \"Service
-        principal clientID: clitest000002 not found in Active Directory tenant 54826b22-38d6-4fb2-bad9-b7b93a3e9c5a,
-        Please see https://aka.ms/aks-sp-help for more details.\"\n }"
-    headers:
-      cache-control:
-      - no-cache
-      content-length:
-      - '241'
-      content-type:
-      - application/json
-      date:
-      - Thu, 02 May 2019 17:42:07 GMT
-      expires:
-      - '-1'
-      pragma:
-      - no-cache
-      server:
-      - nginx
-      strict-transport-security:
-      - max-age=31536000; includeSubDomains
-      x-content-type-options:
-      - nosniff
-      x-ms-ratelimit-remaining-subscription-writes:
-      - '1199'
-    status:
-      code: 400
-      message: Bad Request
-- request:
-    body: 'b''b\''b\\\''b\\\\\\\''{"location": "eastus", "properties": {"kubernetesVersion":
-      "", "dnsPrefix": "cliakstest-clitestdh4xhiwcr-0b1f64", "agentPoolProfiles":
-      [{"name": "nodepool1", "count": 1, "vmSize": "Standard_DS2_v2", "vnetSubnetID":
-      "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.Network/virtualNetworks/clivnet000004/subnets/clisubnet000005",
-      "osType": "Linux"}], "servicePrincipalProfile": {"clientId": "clitest000002",
-      "secret": "8695ed3b-6b5f-4082-9c53-3c3420314d3a"}, "addonProfiles": {}, "enableRBAC":
-      true}}\\\\\\\''\\\''\'''''
-    headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip, deflate
-      CommandName:
-      - aks create
-      Connection:
-      - keep-alive
-      Content-Length:
-      - '570'
-      Content-Type:
-      - application/json; charset=utf-8
-      ParameterSetName:
-      - --resource-group --name --location --node-count --service-principal --client-secret
-        --vnet-subnet-id --skip-subnet-role-assignment --no-ssh-key
-      User-Agent:
-      - python/3.7.2 (Darwin-18.5.0-x86_64-i386-64bit) msrest/0.6.6 msrest_azure/0.6.0
-        azure-mgmt-containerservice/5.2.0 Azure-SDK-For-Python AZURECLI/2.0.63
-      accept-language:
-      - en-US
-    method: PUT
-    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.ContainerService/managedClusters/cliakstest000003?api-version=2019-02-01
-  response:
-    body:
-      string: "{\n  \"code\": \"ServicePrincipalNotFound\",\n  \"message\": \"Service
-        principal clientID: clitest000002 not found in Active Directory tenant 54826b22-38d6-4fb2-bad9-b7b93a3e9c5a,
-        Please see https://aka.ms/aks-sp-help for more details.\"\n }"
-    headers:
-      cache-control:
-      - no-cache
-      content-length:
-      - '241'
-      content-type:
-      - application/json
-      date:
-      - Thu, 02 May 2019 17:42:29 GMT
-      expires:
-      - '-1'
-      pragma:
-      - no-cache
-      server:
-      - nginx
-      strict-transport-security:
-      - max-age=31536000; includeSubDomains
-      x-content-type-options:
-      - nosniff
-      x-ms-ratelimit-remaining-subscription-writes:
-      - '1199'
-    status:
-      code: 400
-      message: Bad Request
-- request:
-    body: 'b''b\''b\\\''b\\\\\\\''{"location": "eastus", "properties": {"kubernetesVersion":
-      "", "dnsPrefix": "cliakstest-clitestdh4xhiwcr-0b1f64", "agentPoolProfiles":
-      [{"name": "nodepool1", "count": 1, "vmSize": "Standard_DS2_v2", "vnetSubnetID":
-      "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.Network/virtualNetworks/clivnet000004/subnets/clisubnet000005",
-      "osType": "Linux"}], "servicePrincipalProfile": {"clientId": "clitest000002",
-      "secret": "8695ed3b-6b5f-4082-9c53-3c3420314d3a"}, "addonProfiles": {}, "enableRBAC":
-      true}}\\\\\\\''\\\''\'''''
-    headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip, deflate
-      CommandName:
-      - aks create
-      Connection:
-      - keep-alive
-      Content-Length:
-      - '570'
-      Content-Type:
-      - application/json; charset=utf-8
-      ParameterSetName:
-      - --resource-group --name --location --node-count --service-principal --client-secret
-        --vnet-subnet-id --skip-subnet-role-assignment --no-ssh-key
-      User-Agent:
-      - python/3.7.2 (Darwin-18.5.0-x86_64-i386-64bit) msrest/0.6.6 msrest_azure/0.6.0
-        azure-mgmt-containerservice/5.2.0 Azure-SDK-For-Python AZURECLI/2.0.63
-      accept-language:
-      - en-US
-    method: PUT
-    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.ContainerService/managedClusters/cliakstest000003?api-version=2019-02-01
-  response:
-    body:
-      string: "{\n  \"code\": \"ServicePrincipalNotFound\",\n  \"message\": \"Service
-        principal clientID: clitest000002 not found in Active Directory tenant 54826b22-38d6-4fb2-bad9-b7b93a3e9c5a,
-        Please see https://aka.ms/aks-sp-help for more details.\"\n }"
-    headers:
-      cache-control:
-      - no-cache
-      content-length:
-      - '241'
-      content-type:
-      - application/json
-      date:
-      - Thu, 02 May 2019 17:42:54 GMT
-      expires:
-      - '-1'
-      pragma:
-      - no-cache
-      server:
-      - nginx
-      strict-transport-security:
-      - max-age=31536000; includeSubDomains
-      x-content-type-options:
-      - nosniff
-      x-ms-ratelimit-remaining-subscription-writes:
-      - '1199'
-    status:
-      code: 400
-      message: Bad Request
-- request:
-    body: 'b''b\''b\\\''b\\\\\\\''{"location": "eastus", "properties": {"kubernetesVersion":
-      "", "dnsPrefix": "cliakstest-clitestdh4xhiwcr-0b1f64", "agentPoolProfiles":
-      [{"name": "nodepool1", "count": 1, "vmSize": "Standard_DS2_v2", "vnetSubnetID":
-      "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.Network/virtualNetworks/clivnet000004/subnets/clisubnet000005",
-      "osType": "Linux"}], "servicePrincipalProfile": {"clientId": "clitest000002",
-      "secret": "8695ed3b-6b5f-4082-9c53-3c3420314d3a"}, "addonProfiles": {}, "enableRBAC":
-      true}}\\\\\\\''\\\''\'''''
-    headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip, deflate
-      CommandName:
-      - aks create
-      Connection:
-      - keep-alive
-      Content-Length:
-      - '570'
-      Content-Type:
-      - application/json; charset=utf-8
-      ParameterSetName:
-      - --resource-group --name --location --node-count --service-principal --client-secret
-        --vnet-subnet-id --skip-subnet-role-assignment --no-ssh-key
-      User-Agent:
-      - python/3.7.2 (Darwin-18.5.0-x86_64-i386-64bit) msrest/0.6.6 msrest_azure/0.6.0
-        azure-mgmt-containerservice/5.2.0 Azure-SDK-For-Python AZURECLI/2.0.63
-      accept-language:
-      - en-US
-    method: PUT
-    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.ContainerService/managedClusters/cliakstest000003?api-version=2019-02-01
-  response:
-    body:
-      string: "{\n  \"code\": \"ServicePrincipalNotFound\",\n  \"message\": \"Service
-        principal clientID: clitest000002 not found in Active Directory tenant 54826b22-38d6-4fb2-bad9-b7b93a3e9c5a,
-        Please see https://aka.ms/aks-sp-help for more details.\"\n }"
-    headers:
-      cache-control:
-      - no-cache
-      content-length:
-      - '241'
-      content-type:
-      - application/json
-      date:
-      - Thu, 02 May 2019 17:43:18 GMT
-      expires:
-      - '-1'
-      pragma:
-      - no-cache
-      server:
-      - nginx
-      strict-transport-security:
-      - max-age=31536000; includeSubDomains
-      x-content-type-options:
-      - nosniff
-      x-ms-ratelimit-remaining-subscription-writes:
-      - '1199'
-    status:
-      code: 400
-      message: Bad Request
-- request:
-    body: 'b''b\''b\\\''b\\\\\\\''{"location": "eastus", "properties": {"kubernetesVersion":
-      "", "dnsPrefix": "cliakstest-clitestdh4xhiwcr-0b1f64", "agentPoolProfiles":
-      [{"name": "nodepool1", "count": 1, "vmSize": "Standard_DS2_v2", "vnetSubnetID":
-      "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.Network/virtualNetworks/clivnet000004/subnets/clisubnet000005",
-      "osType": "Linux"}], "servicePrincipalProfile": {"clientId": "clitest000002",
-      "secret": "8695ed3b-6b5f-4082-9c53-3c3420314d3a"}, "addonProfiles": {}, "enableRBAC":
-      true}}\\\\\\\''\\\''\'''''
-    headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip, deflate
-      CommandName:
-      - aks create
-      Connection:
-      - keep-alive
-      Content-Length:
-      - '570'
-      Content-Type:
-      - application/json; charset=utf-8
-      ParameterSetName:
-      - --resource-group --name --location --node-count --service-principal --client-secret
-        --vnet-subnet-id --skip-subnet-role-assignment --no-ssh-key
-      User-Agent:
-      - python/3.7.2 (Darwin-18.5.0-x86_64-i386-64bit) msrest/0.6.6 msrest_azure/0.6.0
-        azure-mgmt-containerservice/5.2.0 Azure-SDK-For-Python AZURECLI/2.0.63
-      accept-language:
-      - en-US
-    method: PUT
-    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.ContainerService/managedClusters/cliakstest000003?api-version=2019-02-01
-  response:
-    body:
-      string: "{\n  \"code\": \"ServicePrincipalNotFound\",\n  \"message\": \"Service
-        principal clientID: clitest000002 not found in Active Directory tenant 54826b22-38d6-4fb2-bad9-b7b93a3e9c5a,
-        Please see https://aka.ms/aks-sp-help for more details.\"\n }"
-    headers:
-      cache-control:
-      - no-cache
-      content-length:
-      - '241'
-      content-type:
-      - application/json
-      date:
-      - Thu, 02 May 2019 17:43:44 GMT
+      - Mon, 13 May 2019 23:44:25 GMT
       expires:
       - '-1'
       pragma:
@@ -1185,11 +693,11 @@ interactions:
       message: Bad Request
 - request:
     body: 'b''b\''b\\\''b\\\\\\\''{"location": "eastus", "properties": {"kubernetesVersion":
-      "", "dnsPrefix": "cliakstest-clitestdh4xhiwcr-0b1f64", "agentPoolProfiles":
+      "", "dnsPrefix": "cliakstest-clitestxnmlv4jej-c9cbd9", "agentPoolProfiles":
       [{"name": "nodepool1", "count": 1, "vmSize": "Standard_DS2_v2", "vnetSubnetID":
       "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.Network/virtualNetworks/clivnet000004/subnets/clisubnet000005",
       "osType": "Linux"}], "servicePrincipalProfile": {"clientId": "clitest000002",
-      "secret": "8695ed3b-6b5f-4082-9c53-3c3420314d3a"}, "addonProfiles": {}, "enableRBAC":
+      "secret": "b160e205-83b8-4d2e-ac45-ef78f8baa157"}, "addonProfiles": {}, "enableRBAC":
       true}}\\\\\\\''\\\''\'''''
     headers:
       Accept:
@@ -1209,7 +717,7 @@ interactions:
         --vnet-subnet-id --skip-subnet-role-assignment --no-ssh-key
       User-Agent:
       - python/3.7.2 (Darwin-18.5.0-x86_64-i386-64bit) msrest/0.6.6 msrest_azure/0.6.0
-        azure-mgmt-containerservice/5.2.0 Azure-SDK-For-Python AZURECLI/2.0.63
+        azure-mgmt-containerservice/5.2.0 Azure-SDK-For-Python AZURECLI/2.0.64
       accept-language:
       - en-US
     method: PUT
@@ -1217,7 +725,7 @@ interactions:
   response:
     body:
       string: "{\n  \"code\": \"ServicePrincipalNotFound\",\n  \"message\": \"Service
-        principal clientID: clitest000002 not found in Active Directory tenant 54826b22-38d6-4fb2-bad9-b7b93a3e9c5a,
+        principal clientID: clitest000002 not found in Active Directory tenant 72f988bf-86f1-41af-91ab-2d7cd011db47,
         Please see https://aka.ms/aks-sp-help for more details.\"\n }"
     headers:
       cache-control:
@@ -1227,187 +735,7 @@ interactions:
       content-type:
       - application/json
       date:
-      - Thu, 02 May 2019 17:44:08 GMT
-      expires:
-      - '-1'
-      pragma:
-      - no-cache
-      server:
-      - nginx
-      strict-transport-security:
-      - max-age=31536000; includeSubDomains
-      x-content-type-options:
-      - nosniff
-      x-ms-ratelimit-remaining-subscription-writes:
-      - '1198'
-    status:
-      code: 400
-      message: Bad Request
-- request:
-    body: 'b''b\''b\\\''b\\\\\\\''{"location": "eastus", "properties": {"kubernetesVersion":
-      "", "dnsPrefix": "cliakstest-clitestdh4xhiwcr-0b1f64", "agentPoolProfiles":
-      [{"name": "nodepool1", "count": 1, "vmSize": "Standard_DS2_v2", "vnetSubnetID":
-      "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.Network/virtualNetworks/clivnet000004/subnets/clisubnet000005",
-      "osType": "Linux"}], "servicePrincipalProfile": {"clientId": "clitest000002",
-      "secret": "8695ed3b-6b5f-4082-9c53-3c3420314d3a"}, "addonProfiles": {}, "enableRBAC":
-      true}}\\\\\\\''\\\''\'''''
-    headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip, deflate
-      CommandName:
-      - aks create
-      Connection:
-      - keep-alive
-      Content-Length:
-      - '570'
-      Content-Type:
-      - application/json; charset=utf-8
-      ParameterSetName:
-      - --resource-group --name --location --node-count --service-principal --client-secret
-        --vnet-subnet-id --skip-subnet-role-assignment --no-ssh-key
-      User-Agent:
-      - python/3.7.2 (Darwin-18.5.0-x86_64-i386-64bit) msrest/0.6.6 msrest_azure/0.6.0
-        azure-mgmt-containerservice/5.2.0 Azure-SDK-For-Python AZURECLI/2.0.63
-      accept-language:
-      - en-US
-    method: PUT
-    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.ContainerService/managedClusters/cliakstest000003?api-version=2019-02-01
-  response:
-    body:
-      string: "{\n  \"code\": \"ServicePrincipalNotFound\",\n  \"message\": \"Service
-        principal clientID: clitest000002 not found in Active Directory tenant 54826b22-38d6-4fb2-bad9-b7b93a3e9c5a,
-        Please see https://aka.ms/aks-sp-help for more details.\"\n }"
-    headers:
-      cache-control:
-      - no-cache
-      content-length:
-      - '241'
-      content-type:
-      - application/json
-      date:
-      - Thu, 02 May 2019 17:44:36 GMT
-      expires:
-      - '-1'
-      pragma:
-      - no-cache
-      server:
-      - nginx
-      strict-transport-security:
-      - max-age=31536000; includeSubDomains
-      x-content-type-options:
-      - nosniff
-      x-ms-ratelimit-remaining-subscription-writes:
-      - '1199'
-    status:
-      code: 400
-      message: Bad Request
-- request:
-    body: 'b''b\''b\\\''b\\\\\\\''{"location": "eastus", "properties": {"kubernetesVersion":
-      "", "dnsPrefix": "cliakstest-clitestdh4xhiwcr-0b1f64", "agentPoolProfiles":
-      [{"name": "nodepool1", "count": 1, "vmSize": "Standard_DS2_v2", "vnetSubnetID":
-      "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.Network/virtualNetworks/clivnet000004/subnets/clisubnet000005",
-      "osType": "Linux"}], "servicePrincipalProfile": {"clientId": "clitest000002",
-      "secret": "8695ed3b-6b5f-4082-9c53-3c3420314d3a"}, "addonProfiles": {}, "enableRBAC":
-      true}}\\\\\\\''\\\''\'''''
-    headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip, deflate
-      CommandName:
-      - aks create
-      Connection:
-      - keep-alive
-      Content-Length:
-      - '570'
-      Content-Type:
-      - application/json; charset=utf-8
-      ParameterSetName:
-      - --resource-group --name --location --node-count --service-principal --client-secret
-        --vnet-subnet-id --skip-subnet-role-assignment --no-ssh-key
-      User-Agent:
-      - python/3.7.2 (Darwin-18.5.0-x86_64-i386-64bit) msrest/0.6.6 msrest_azure/0.6.0
-        azure-mgmt-containerservice/5.2.0 Azure-SDK-For-Python AZURECLI/2.0.63
-      accept-language:
-      - en-US
-    method: PUT
-    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.ContainerService/managedClusters/cliakstest000003?api-version=2019-02-01
-  response:
-    body:
-      string: "{\n  \"code\": \"ServicePrincipalNotFound\",\n  \"message\": \"Service
-        principal clientID: clitest000002 not found in Active Directory tenant 54826b22-38d6-4fb2-bad9-b7b93a3e9c5a,
-        Please see https://aka.ms/aks-sp-help for more details.\"\n }"
-    headers:
-      cache-control:
-      - no-cache
-      content-length:
-      - '241'
-      content-type:
-      - application/json
-      date:
-      - Thu, 02 May 2019 17:45:01 GMT
-      expires:
-      - '-1'
-      pragma:
-      - no-cache
-      server:
-      - nginx
-      strict-transport-security:
-      - max-age=31536000; includeSubDomains
-      x-content-type-options:
-      - nosniff
-      x-ms-ratelimit-remaining-subscription-writes:
-      - '1198'
-    status:
-      code: 400
-      message: Bad Request
-- request:
-    body: 'b''b\''b\\\''b\\\\\\\''{"location": "eastus", "properties": {"kubernetesVersion":
-      "", "dnsPrefix": "cliakstest-clitestdh4xhiwcr-0b1f64", "agentPoolProfiles":
-      [{"name": "nodepool1", "count": 1, "vmSize": "Standard_DS2_v2", "vnetSubnetID":
-      "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.Network/virtualNetworks/clivnet000004/subnets/clisubnet000005",
-      "osType": "Linux"}], "servicePrincipalProfile": {"clientId": "clitest000002",
-      "secret": "8695ed3b-6b5f-4082-9c53-3c3420314d3a"}, "addonProfiles": {}, "enableRBAC":
-      true}}\\\\\\\''\\\''\'''''
-    headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip, deflate
-      CommandName:
-      - aks create
-      Connection:
-      - keep-alive
-      Content-Length:
-      - '570'
-      Content-Type:
-      - application/json; charset=utf-8
-      ParameterSetName:
-      - --resource-group --name --location --node-count --service-principal --client-secret
-        --vnet-subnet-id --skip-subnet-role-assignment --no-ssh-key
-      User-Agent:
-      - python/3.7.2 (Darwin-18.5.0-x86_64-i386-64bit) msrest/0.6.6 msrest_azure/0.6.0
-        azure-mgmt-containerservice/5.2.0 Azure-SDK-For-Python AZURECLI/2.0.63
-      accept-language:
-      - en-US
-    method: PUT
-    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.ContainerService/managedClusters/cliakstest000003?api-version=2019-02-01
-  response:
-    body:
-      string: "{\n  \"code\": \"ServicePrincipalNotFound\",\n  \"message\": \"Service
-        principal clientID: clitest000002 not found in Active Directory tenant 54826b22-38d6-4fb2-bad9-b7b93a3e9c5a,
-        Please see https://aka.ms/aks-sp-help for more details.\"\n }"
-    headers:
-      cache-control:
-      - no-cache
-      content-length:
-      - '241'
-      content-type:
-      - application/json
-      date:
-      - Thu, 02 May 2019 17:45:26 GMT
+      - Mon, 13 May 2019 23:44:50 GMT
       expires:
       - '-1'
       pragma:
@@ -1425,11 +753,11 @@ interactions:
       message: Bad Request
 - request:
     body: 'b''b\''b\\\''b\\\\\\\''{"location": "eastus", "properties": {"kubernetesVersion":
-      "", "dnsPrefix": "cliakstest-clitestdh4xhiwcr-0b1f64", "agentPoolProfiles":
+      "", "dnsPrefix": "cliakstest-clitestxnmlv4jej-c9cbd9", "agentPoolProfiles":
       [{"name": "nodepool1", "count": 1, "vmSize": "Standard_DS2_v2", "vnetSubnetID":
       "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.Network/virtualNetworks/clivnet000004/subnets/clisubnet000005",
       "osType": "Linux"}], "servicePrincipalProfile": {"clientId": "clitest000002",
-      "secret": "8695ed3b-6b5f-4082-9c53-3c3420314d3a"}, "addonProfiles": {}, "enableRBAC":
+      "secret": "b160e205-83b8-4d2e-ac45-ef78f8baa157"}, "addonProfiles": {}, "enableRBAC":
       true}}\\\\\\\''\\\''\'''''
     headers:
       Accept:
@@ -1449,7 +777,7 @@ interactions:
         --vnet-subnet-id --skip-subnet-role-assignment --no-ssh-key
       User-Agent:
       - python/3.7.2 (Darwin-18.5.0-x86_64-i386-64bit) msrest/0.6.6 msrest_azure/0.6.0
-        azure-mgmt-containerservice/5.2.0 Azure-SDK-For-Python AZURECLI/2.0.63
+        azure-mgmt-containerservice/5.2.0 Azure-SDK-For-Python AZURECLI/2.0.64
       accept-language:
       - en-US
     method: PUT
@@ -1457,7 +785,7 @@ interactions:
   response:
     body:
       string: "{\n  \"code\": \"ServicePrincipalNotFound\",\n  \"message\": \"Service
-        principal clientID: clitest000002 not found in Active Directory tenant 54826b22-38d6-4fb2-bad9-b7b93a3e9c5a,
+        principal clientID: clitest000002 not found in Active Directory tenant 72f988bf-86f1-41af-91ab-2d7cd011db47,
         Please see https://aka.ms/aks-sp-help for more details.\"\n }"
     headers:
       cache-control:
@@ -1467,7 +795,187 @@ interactions:
       content-type:
       - application/json
       date:
-      - Thu, 02 May 2019 17:45:49 GMT
+      - Mon, 13 May 2019 23:45:12 GMT
+      expires:
+      - '-1'
+      pragma:
+      - no-cache
+      server:
+      - nginx
+      strict-transport-security:
+      - max-age=31536000; includeSubDomains
+      x-content-type-options:
+      - nosniff
+      x-ms-ratelimit-remaining-subscription-writes:
+      - '1198'
+    status:
+      code: 400
+      message: Bad Request
+- request:
+    body: 'b''b\''b\\\''b\\\\\\\''{"location": "eastus", "properties": {"kubernetesVersion":
+      "", "dnsPrefix": "cliakstest-clitestxnmlv4jej-c9cbd9", "agentPoolProfiles":
+      [{"name": "nodepool1", "count": 1, "vmSize": "Standard_DS2_v2", "vnetSubnetID":
+      "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.Network/virtualNetworks/clivnet000004/subnets/clisubnet000005",
+      "osType": "Linux"}], "servicePrincipalProfile": {"clientId": "clitest000002",
+      "secret": "b160e205-83b8-4d2e-ac45-ef78f8baa157"}, "addonProfiles": {}, "enableRBAC":
+      true}}\\\\\\\''\\\''\'''''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      CommandName:
+      - aks create
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '570'
+      Content-Type:
+      - application/json; charset=utf-8
+      ParameterSetName:
+      - --resource-group --name --location --node-count --service-principal --client-secret
+        --vnet-subnet-id --skip-subnet-role-assignment --no-ssh-key
+      User-Agent:
+      - python/3.7.2 (Darwin-18.5.0-x86_64-i386-64bit) msrest/0.6.6 msrest_azure/0.6.0
+        azure-mgmt-containerservice/5.2.0 Azure-SDK-For-Python AZURECLI/2.0.64
+      accept-language:
+      - en-US
+    method: PUT
+    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.ContainerService/managedClusters/cliakstest000003?api-version=2019-02-01
+  response:
+    body:
+      string: "{\n  \"code\": \"ServicePrincipalNotFound\",\n  \"message\": \"Service
+        principal clientID: clitest000002 not found in Active Directory tenant 72f988bf-86f1-41af-91ab-2d7cd011db47,
+        Please see https://aka.ms/aks-sp-help for more details.\"\n }"
+    headers:
+      cache-control:
+      - no-cache
+      content-length:
+      - '241'
+      content-type:
+      - application/json
+      date:
+      - Mon, 13 May 2019 23:45:38 GMT
+      expires:
+      - '-1'
+      pragma:
+      - no-cache
+      server:
+      - nginx
+      strict-transport-security:
+      - max-age=31536000; includeSubDomains
+      x-content-type-options:
+      - nosniff
+      x-ms-ratelimit-remaining-subscription-writes:
+      - '1198'
+    status:
+      code: 400
+      message: Bad Request
+- request:
+    body: 'b''b\''b\\\''b\\\\\\\''{"location": "eastus", "properties": {"kubernetesVersion":
+      "", "dnsPrefix": "cliakstest-clitestxnmlv4jej-c9cbd9", "agentPoolProfiles":
+      [{"name": "nodepool1", "count": 1, "vmSize": "Standard_DS2_v2", "vnetSubnetID":
+      "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.Network/virtualNetworks/clivnet000004/subnets/clisubnet000005",
+      "osType": "Linux"}], "servicePrincipalProfile": {"clientId": "clitest000002",
+      "secret": "b160e205-83b8-4d2e-ac45-ef78f8baa157"}, "addonProfiles": {}, "enableRBAC":
+      true}}\\\\\\\''\\\''\'''''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      CommandName:
+      - aks create
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '570'
+      Content-Type:
+      - application/json; charset=utf-8
+      ParameterSetName:
+      - --resource-group --name --location --node-count --service-principal --client-secret
+        --vnet-subnet-id --skip-subnet-role-assignment --no-ssh-key
+      User-Agent:
+      - python/3.7.2 (Darwin-18.5.0-x86_64-i386-64bit) msrest/0.6.6 msrest_azure/0.6.0
+        azure-mgmt-containerservice/5.2.0 Azure-SDK-For-Python AZURECLI/2.0.64
+      accept-language:
+      - en-US
+    method: PUT
+    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.ContainerService/managedClusters/cliakstest000003?api-version=2019-02-01
+  response:
+    body:
+      string: "{\n  \"code\": \"ServicePrincipalNotFound\",\n  \"message\": \"Service
+        principal clientID: clitest000002 not found in Active Directory tenant 72f988bf-86f1-41af-91ab-2d7cd011db47,
+        Please see https://aka.ms/aks-sp-help for more details.\"\n }"
+    headers:
+      cache-control:
+      - no-cache
+      content-length:
+      - '241'
+      content-type:
+      - application/json
+      date:
+      - Mon, 13 May 2019 23:45:58 GMT
+      expires:
+      - '-1'
+      pragma:
+      - no-cache
+      server:
+      - nginx
+      strict-transport-security:
+      - max-age=31536000; includeSubDomains
+      x-content-type-options:
+      - nosniff
+      x-ms-ratelimit-remaining-subscription-writes:
+      - '1195'
+    status:
+      code: 400
+      message: Bad Request
+- request:
+    body: 'b''b\''b\\\''b\\\\\\\''{"location": "eastus", "properties": {"kubernetesVersion":
+      "", "dnsPrefix": "cliakstest-clitestxnmlv4jej-c9cbd9", "agentPoolProfiles":
+      [{"name": "nodepool1", "count": 1, "vmSize": "Standard_DS2_v2", "vnetSubnetID":
+      "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.Network/virtualNetworks/clivnet000004/subnets/clisubnet000005",
+      "osType": "Linux"}], "servicePrincipalProfile": {"clientId": "clitest000002",
+      "secret": "b160e205-83b8-4d2e-ac45-ef78f8baa157"}, "addonProfiles": {}, "enableRBAC":
+      true}}\\\\\\\''\\\''\'''''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      CommandName:
+      - aks create
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '570'
+      Content-Type:
+      - application/json; charset=utf-8
+      ParameterSetName:
+      - --resource-group --name --location --node-count --service-principal --client-secret
+        --vnet-subnet-id --skip-subnet-role-assignment --no-ssh-key
+      User-Agent:
+      - python/3.7.2 (Darwin-18.5.0-x86_64-i386-64bit) msrest/0.6.6 msrest_azure/0.6.0
+        azure-mgmt-containerservice/5.2.0 Azure-SDK-For-Python AZURECLI/2.0.64
+      accept-language:
+      - en-US
+    method: PUT
+    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.ContainerService/managedClusters/cliakstest000003?api-version=2019-02-01
+  response:
+    body:
+      string: "{\n  \"code\": \"ServicePrincipalNotFound\",\n  \"message\": \"Service
+        principal clientID: clitest000002 not found in Active Directory tenant 72f988bf-86f1-41af-91ab-2d7cd011db47,
+        Please see https://aka.ms/aks-sp-help for more details.\"\n }"
+    headers:
+      cache-control:
+      - no-cache
+      content-length:
+      - '241'
+      content-type:
+      - application/json
+      date:
+      - Mon, 13 May 2019 23:46:26 GMT
       expires:
       - '-1'
       pragma:
@@ -1485,11 +993,11 @@ interactions:
       message: Bad Request
 - request:
     body: 'b''b\''b\\\''b\\\\\\\''{"location": "eastus", "properties": {"kubernetesVersion":
-      "", "dnsPrefix": "cliakstest-clitestdh4xhiwcr-0b1f64", "agentPoolProfiles":
+      "", "dnsPrefix": "cliakstest-clitestxnmlv4jej-c9cbd9", "agentPoolProfiles":
       [{"name": "nodepool1", "count": 1, "vmSize": "Standard_DS2_v2", "vnetSubnetID":
       "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.Network/virtualNetworks/clivnet000004/subnets/clisubnet000005",
       "osType": "Linux"}], "servicePrincipalProfile": {"clientId": "clitest000002",
-      "secret": "8695ed3b-6b5f-4082-9c53-3c3420314d3a"}, "addonProfiles": {}, "enableRBAC":
+      "secret": "b160e205-83b8-4d2e-ac45-ef78f8baa157"}, "addonProfiles": {}, "enableRBAC":
       true}}\\\\\\\''\\\''\'''''
     headers:
       Accept:
@@ -1509,7 +1017,7 @@ interactions:
         --vnet-subnet-id --skip-subnet-role-assignment --no-ssh-key
       User-Agent:
       - python/3.7.2 (Darwin-18.5.0-x86_64-i386-64bit) msrest/0.6.6 msrest_azure/0.6.0
-        azure-mgmt-containerservice/5.2.0 Azure-SDK-For-Python AZURECLI/2.0.63
+        azure-mgmt-containerservice/5.2.0 Azure-SDK-For-Python AZURECLI/2.0.64
       accept-language:
       - en-US
     method: PUT
@@ -1517,7 +1025,7 @@ interactions:
   response:
     body:
       string: "{\n  \"code\": \"ServicePrincipalNotFound\",\n  \"message\": \"Service
-        principal clientID: clitest000002 not found in Active Directory tenant 54826b22-38d6-4fb2-bad9-b7b93a3e9c5a,
+        principal clientID: clitest000002 not found in Active Directory tenant 72f988bf-86f1-41af-91ab-2d7cd011db47,
         Please see https://aka.ms/aks-sp-help for more details.\"\n }"
     headers:
       cache-control:
@@ -1527,7 +1035,7 @@ interactions:
       content-type:
       - application/json
       date:
-      - Thu, 02 May 2019 17:46:10 GMT
+      - Mon, 13 May 2019 23:46:47 GMT
       expires:
       - '-1'
       pragma:
@@ -1539,17 +1047,17 @@ interactions:
       x-content-type-options:
       - nosniff
       x-ms-ratelimit-remaining-subscription-writes:
-      - '1197'
+      - '1198'
     status:
       code: 400
       message: Bad Request
 - request:
     body: 'b''b\''b\\\''b\\\\\\\''{"location": "eastus", "properties": {"kubernetesVersion":
-      "", "dnsPrefix": "cliakstest-clitestdh4xhiwcr-0b1f64", "agentPoolProfiles":
+      "", "dnsPrefix": "cliakstest-clitestxnmlv4jej-c9cbd9", "agentPoolProfiles":
       [{"name": "nodepool1", "count": 1, "vmSize": "Standard_DS2_v2", "vnetSubnetID":
       "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.Network/virtualNetworks/clivnet000004/subnets/clisubnet000005",
       "osType": "Linux"}], "servicePrincipalProfile": {"clientId": "clitest000002",
-      "secret": "8695ed3b-6b5f-4082-9c53-3c3420314d3a"}, "addonProfiles": {}, "enableRBAC":
+      "secret": "b160e205-83b8-4d2e-ac45-ef78f8baa157"}, "addonProfiles": {}, "enableRBAC":
       true}}\\\\\\\''\\\''\'''''
     headers:
       Accept:
@@ -1569,7 +1077,7 @@ interactions:
         --vnet-subnet-id --skip-subnet-role-assignment --no-ssh-key
       User-Agent:
       - python/3.7.2 (Darwin-18.5.0-x86_64-i386-64bit) msrest/0.6.6 msrest_azure/0.6.0
-        azure-mgmt-containerservice/5.2.0 Azure-SDK-For-Python AZURECLI/2.0.63
+        azure-mgmt-containerservice/5.2.0 Azure-SDK-For-Python AZURECLI/2.0.64
       accept-language:
       - en-US
     method: PUT
@@ -1577,7 +1085,7 @@ interactions:
   response:
     body:
       string: "{\n  \"code\": \"ServicePrincipalNotFound\",\n  \"message\": \"Service
-        principal clientID: clitest000002 not found in Active Directory tenant 54826b22-38d6-4fb2-bad9-b7b93a3e9c5a,
+        principal clientID: clitest000002 not found in Active Directory tenant 72f988bf-86f1-41af-91ab-2d7cd011db47,
         Please see https://aka.ms/aks-sp-help for more details.\"\n }"
     headers:
       cache-control:
@@ -1587,67 +1095,7 @@ interactions:
       content-type:
       - application/json
       date:
-      - Thu, 02 May 2019 17:46:36 GMT
-      expires:
-      - '-1'
-      pragma:
-      - no-cache
-      server:
-      - nginx
-      strict-transport-security:
-      - max-age=31536000; includeSubDomains
-      x-content-type-options:
-      - nosniff
-      x-ms-ratelimit-remaining-subscription-writes:
-      - '1197'
-    status:
-      code: 400
-      message: Bad Request
-- request:
-    body: 'b''b\''b\\\''b\\\\\\\''{"location": "eastus", "properties": {"kubernetesVersion":
-      "", "dnsPrefix": "cliakstest-clitestdh4xhiwcr-0b1f64", "agentPoolProfiles":
-      [{"name": "nodepool1", "count": 1, "vmSize": "Standard_DS2_v2", "vnetSubnetID":
-      "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.Network/virtualNetworks/clivnet000004/subnets/clisubnet000005",
-      "osType": "Linux"}], "servicePrincipalProfile": {"clientId": "clitest000002",
-      "secret": "8695ed3b-6b5f-4082-9c53-3c3420314d3a"}, "addonProfiles": {}, "enableRBAC":
-      true}}\\\\\\\''\\\''\'''''
-    headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip, deflate
-      CommandName:
-      - aks create
-      Connection:
-      - keep-alive
-      Content-Length:
-      - '570'
-      Content-Type:
-      - application/json; charset=utf-8
-      ParameterSetName:
-      - --resource-group --name --location --node-count --service-principal --client-secret
-        --vnet-subnet-id --skip-subnet-role-assignment --no-ssh-key
-      User-Agent:
-      - python/3.7.2 (Darwin-18.5.0-x86_64-i386-64bit) msrest/0.6.6 msrest_azure/0.6.0
-        azure-mgmt-containerservice/5.2.0 Azure-SDK-For-Python AZURECLI/2.0.63
-      accept-language:
-      - en-US
-    method: PUT
-    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.ContainerService/managedClusters/cliakstest000003?api-version=2019-02-01
-  response:
-    body:
-      string: "{\n  \"code\": \"ServicePrincipalNotFound\",\n  \"message\": \"Service
-        principal clientID: clitest000002 not found in Active Directory tenant 54826b22-38d6-4fb2-bad9-b7b93a3e9c5a,
-        Please see https://aka.ms/aks-sp-help for more details.\"\n }"
-    headers:
-      cache-control:
-      - no-cache
-      content-length:
-      - '241'
-      content-type:
-      - application/json
-      date:
-      - Thu, 02 May 2019 17:46:59 GMT
+      - Mon, 13 May 2019 23:47:14 GMT
       expires:
       - '-1'
       pragma:
@@ -1665,11 +1113,11 @@ interactions:
       message: Bad Request
 - request:
     body: 'b''b\''b\\\''b\\\\\\\''{"location": "eastus", "properties": {"kubernetesVersion":
-      "", "dnsPrefix": "cliakstest-clitestdh4xhiwcr-0b1f64", "agentPoolProfiles":
+      "", "dnsPrefix": "cliakstest-clitestxnmlv4jej-c9cbd9", "agentPoolProfiles":
       [{"name": "nodepool1", "count": 1, "vmSize": "Standard_DS2_v2", "vnetSubnetID":
       "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.Network/virtualNetworks/clivnet000004/subnets/clisubnet000005",
       "osType": "Linux"}], "servicePrincipalProfile": {"clientId": "clitest000002",
-      "secret": "8695ed3b-6b5f-4082-9c53-3c3420314d3a"}, "addonProfiles": {}, "enableRBAC":
+      "secret": "b160e205-83b8-4d2e-ac45-ef78f8baa157"}, "addonProfiles": {}, "enableRBAC":
       true}}\\\\\\\''\\\''\'''''
     headers:
       Accept:
@@ -1689,7 +1137,7 @@ interactions:
         --vnet-subnet-id --skip-subnet-role-assignment --no-ssh-key
       User-Agent:
       - python/3.7.2 (Darwin-18.5.0-x86_64-i386-64bit) msrest/0.6.6 msrest_azure/0.6.0
-        azure-mgmt-containerservice/5.2.0 Azure-SDK-For-Python AZURECLI/2.0.63
+        azure-mgmt-containerservice/5.2.0 Azure-SDK-For-Python AZURECLI/2.0.64
       accept-language:
       - en-US
     method: PUT
@@ -1697,7 +1145,7 @@ interactions:
   response:
     body:
       string: "{\n  \"code\": \"ServicePrincipalNotFound\",\n  \"message\": \"Service
-        principal clientID: clitest000002 not found in Active Directory tenant 54826b22-38d6-4fb2-bad9-b7b93a3e9c5a,
+        principal clientID: clitest000002 not found in Active Directory tenant 72f988bf-86f1-41af-91ab-2d7cd011db47,
         Please see https://aka.ms/aks-sp-help for more details.\"\n }"
     headers:
       cache-control:
@@ -1707,7 +1155,7 @@ interactions:
       content-type:
       - application/json
       date:
-      - Thu, 02 May 2019 17:47:19 GMT
+      - Mon, 13 May 2019 23:47:36 GMT
       expires:
       - '-1'
       pragma:
@@ -1719,17 +1167,17 @@ interactions:
       x-content-type-options:
       - nosniff
       x-ms-ratelimit-remaining-subscription-writes:
-      - '1198'
+      - '1197'
     status:
       code: 400
       message: Bad Request
 - request:
     body: 'b''b\''b\\\''b\\\\\\\''{"location": "eastus", "properties": {"kubernetesVersion":
-      "", "dnsPrefix": "cliakstest-clitestdh4xhiwcr-0b1f64", "agentPoolProfiles":
+      "", "dnsPrefix": "cliakstest-clitestxnmlv4jej-c9cbd9", "agentPoolProfiles":
       [{"name": "nodepool1", "count": 1, "vmSize": "Standard_DS2_v2", "vnetSubnetID":
       "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.Network/virtualNetworks/clivnet000004/subnets/clisubnet000005",
       "osType": "Linux"}], "servicePrincipalProfile": {"clientId": "clitest000002",
-      "secret": "8695ed3b-6b5f-4082-9c53-3c3420314d3a"}, "addonProfiles": {}, "enableRBAC":
+      "secret": "b160e205-83b8-4d2e-ac45-ef78f8baa157"}, "addonProfiles": {}, "enableRBAC":
       true}}\\\\\\\''\\\''\'''''
     headers:
       Accept:
@@ -1749,7 +1197,7 @@ interactions:
         --vnet-subnet-id --skip-subnet-role-assignment --no-ssh-key
       User-Agent:
       - python/3.7.2 (Darwin-18.5.0-x86_64-i386-64bit) msrest/0.6.6 msrest_azure/0.6.0
-        azure-mgmt-containerservice/5.2.0 Azure-SDK-For-Python AZURECLI/2.0.63
+        azure-mgmt-containerservice/5.2.0 Azure-SDK-For-Python AZURECLI/2.0.64
       accept-language:
       - en-US
     method: PUT
@@ -1757,7 +1205,7 @@ interactions:
   response:
     body:
       string: "{\n  \"code\": \"ServicePrincipalNotFound\",\n  \"message\": \"Service
-        principal clientID: clitest000002 not found in Active Directory tenant 54826b22-38d6-4fb2-bad9-b7b93a3e9c5a,
+        principal clientID: clitest000002 not found in Active Directory tenant 72f988bf-86f1-41af-91ab-2d7cd011db47,
         Please see https://aka.ms/aks-sp-help for more details.\"\n }"
     headers:
       cache-control:
@@ -1767,7 +1215,7 @@ interactions:
       content-type:
       - application/json
       date:
-      - Thu, 02 May 2019 17:47:41 GMT
+      - Mon, 13 May 2019 23:48:01 GMT
       expires:
       - '-1'
       pragma:
@@ -1785,11 +1233,11 @@ interactions:
       message: Bad Request
 - request:
     body: 'b''b\''b\\\''b\\\\\\\''{"location": "eastus", "properties": {"kubernetesVersion":
-      "", "dnsPrefix": "cliakstest-clitestdh4xhiwcr-0b1f64", "agentPoolProfiles":
+      "", "dnsPrefix": "cliakstest-clitestxnmlv4jej-c9cbd9", "agentPoolProfiles":
       [{"name": "nodepool1", "count": 1, "vmSize": "Standard_DS2_v2", "vnetSubnetID":
       "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.Network/virtualNetworks/clivnet000004/subnets/clisubnet000005",
       "osType": "Linux"}], "servicePrincipalProfile": {"clientId": "clitest000002",
-      "secret": "8695ed3b-6b5f-4082-9c53-3c3420314d3a"}, "addonProfiles": {}, "enableRBAC":
+      "secret": "b160e205-83b8-4d2e-ac45-ef78f8baa157"}, "addonProfiles": {}, "enableRBAC":
       true}}\\\\\\\''\\\''\'''''
     headers:
       Accept:
@@ -1809,7 +1257,7 @@ interactions:
         --vnet-subnet-id --skip-subnet-role-assignment --no-ssh-key
       User-Agent:
       - python/3.7.2 (Darwin-18.5.0-x86_64-i386-64bit) msrest/0.6.6 msrest_azure/0.6.0
-        azure-mgmt-containerservice/5.2.0 Azure-SDK-For-Python AZURECLI/2.0.63
+        azure-mgmt-containerservice/5.2.0 Azure-SDK-For-Python AZURECLI/2.0.64
       accept-language:
       - en-US
     method: PUT
@@ -1817,7 +1265,7 @@ interactions:
   response:
     body:
       string: "{\n  \"code\": \"ServicePrincipalNotFound\",\n  \"message\": \"Service
-        principal clientID: clitest000002 not found in Active Directory tenant 54826b22-38d6-4fb2-bad9-b7b93a3e9c5a,
+        principal clientID: clitest000002 not found in Active Directory tenant 72f988bf-86f1-41af-91ab-2d7cd011db47,
         Please see https://aka.ms/aks-sp-help for more details.\"\n }"
     headers:
       cache-control:
@@ -1827,7 +1275,67 @@ interactions:
       content-type:
       - application/json
       date:
-      - Thu, 02 May 2019 17:48:04 GMT
+      - Mon, 13 May 2019 23:48:26 GMT
+      expires:
+      - '-1'
+      pragma:
+      - no-cache
+      server:
+      - nginx
+      strict-transport-security:
+      - max-age=31536000; includeSubDomains
+      x-content-type-options:
+      - nosniff
+      x-ms-ratelimit-remaining-subscription-writes:
+      - '1198'
+    status:
+      code: 400
+      message: Bad Request
+- request:
+    body: 'b''b\''b\\\''b\\\\\\\''{"location": "eastus", "properties": {"kubernetesVersion":
+      "", "dnsPrefix": "cliakstest-clitestxnmlv4jej-c9cbd9", "agentPoolProfiles":
+      [{"name": "nodepool1", "count": 1, "vmSize": "Standard_DS2_v2", "vnetSubnetID":
+      "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.Network/virtualNetworks/clivnet000004/subnets/clisubnet000005",
+      "osType": "Linux"}], "servicePrincipalProfile": {"clientId": "clitest000002",
+      "secret": "b160e205-83b8-4d2e-ac45-ef78f8baa157"}, "addonProfiles": {}, "enableRBAC":
+      true}}\\\\\\\''\\\''\'''''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      CommandName:
+      - aks create
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '570'
+      Content-Type:
+      - application/json; charset=utf-8
+      ParameterSetName:
+      - --resource-group --name --location --node-count --service-principal --client-secret
+        --vnet-subnet-id --skip-subnet-role-assignment --no-ssh-key
+      User-Agent:
+      - python/3.7.2 (Darwin-18.5.0-x86_64-i386-64bit) msrest/0.6.6 msrest_azure/0.6.0
+        azure-mgmt-containerservice/5.2.0 Azure-SDK-For-Python AZURECLI/2.0.64
+      accept-language:
+      - en-US
+    method: PUT
+    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.ContainerService/managedClusters/cliakstest000003?api-version=2019-02-01
+  response:
+    body:
+      string: "{\n  \"code\": \"ServicePrincipalNotFound\",\n  \"message\": \"Service
+        principal clientID: clitest000002 not found in Active Directory tenant 72f988bf-86f1-41af-91ab-2d7cd011db47,
+        Please see https://aka.ms/aks-sp-help for more details.\"\n }"
+    headers:
+      cache-control:
+      - no-cache
+      content-length:
+      - '241'
+      content-type:
+      - application/json
+      date:
+      - Mon, 13 May 2019 23:48:52 GMT
       expires:
       - '-1'
       pragma:
@@ -1845,11 +1353,11 @@ interactions:
       message: Bad Request
 - request:
     body: 'b''b\''b\\\''b\\\\\\\''{"location": "eastus", "properties": {"kubernetesVersion":
-      "", "dnsPrefix": "cliakstest-clitestdh4xhiwcr-0b1f64", "agentPoolProfiles":
+      "", "dnsPrefix": "cliakstest-clitestxnmlv4jej-c9cbd9", "agentPoolProfiles":
       [{"name": "nodepool1", "count": 1, "vmSize": "Standard_DS2_v2", "vnetSubnetID":
       "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.Network/virtualNetworks/clivnet000004/subnets/clisubnet000005",
       "osType": "Linux"}], "servicePrincipalProfile": {"clientId": "clitest000002",
-      "secret": "8695ed3b-6b5f-4082-9c53-3c3420314d3a"}, "addonProfiles": {}, "enableRBAC":
+      "secret": "b160e205-83b8-4d2e-ac45-ef78f8baa157"}, "addonProfiles": {}, "enableRBAC":
       true}}\\\\\\\''\\\''\'''''
     headers:
       Accept:
@@ -1869,7 +1377,7 @@ interactions:
         --vnet-subnet-id --skip-subnet-role-assignment --no-ssh-key
       User-Agent:
       - python/3.7.2 (Darwin-18.5.0-x86_64-i386-64bit) msrest/0.6.6 msrest_azure/0.6.0
-        azure-mgmt-containerservice/5.2.0 Azure-SDK-For-Python AZURECLI/2.0.63
+        azure-mgmt-containerservice/5.2.0 Azure-SDK-For-Python AZURECLI/2.0.64
       accept-language:
       - en-US
     method: PUT
@@ -1877,7 +1385,7 @@ interactions:
   response:
     body:
       string: "{\n  \"code\": \"ServicePrincipalNotFound\",\n  \"message\": \"Service
-        principal clientID: clitest000002 not found in Active Directory tenant 54826b22-38d6-4fb2-bad9-b7b93a3e9c5a,
+        principal clientID: clitest000002 not found in Active Directory tenant 72f988bf-86f1-41af-91ab-2d7cd011db47,
         Please see https://aka.ms/aks-sp-help for more details.\"\n }"
     headers:
       cache-control:
@@ -1887,7 +1395,7 @@ interactions:
       content-type:
       - application/json
       date:
-      - Thu, 02 May 2019 17:48:39 GMT
+      - Mon, 13 May 2019 23:49:13 GMT
       expires:
       - '-1'
       pragma:
@@ -1905,11 +1413,11 @@ interactions:
       message: Bad Request
 - request:
     body: 'b''b\''b\\\''b\\\\\\\''{"location": "eastus", "properties": {"kubernetesVersion":
-      "", "dnsPrefix": "cliakstest-clitestdh4xhiwcr-0b1f64", "agentPoolProfiles":
+      "", "dnsPrefix": "cliakstest-clitestxnmlv4jej-c9cbd9", "agentPoolProfiles":
       [{"name": "nodepool1", "count": 1, "vmSize": "Standard_DS2_v2", "vnetSubnetID":
       "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.Network/virtualNetworks/clivnet000004/subnets/clisubnet000005",
       "osType": "Linux"}], "servicePrincipalProfile": {"clientId": "clitest000002",
-      "secret": "8695ed3b-6b5f-4082-9c53-3c3420314d3a"}, "addonProfiles": {}, "enableRBAC":
+      "secret": "b160e205-83b8-4d2e-ac45-ef78f8baa157"}, "addonProfiles": {}, "enableRBAC":
       true}}\\\\\\\''\\\''\'''''
     headers:
       Accept:
@@ -1929,7 +1437,7 @@ interactions:
         --vnet-subnet-id --skip-subnet-role-assignment --no-ssh-key
       User-Agent:
       - python/3.7.2 (Darwin-18.5.0-x86_64-i386-64bit) msrest/0.6.6 msrest_azure/0.6.0
-        azure-mgmt-containerservice/5.2.0 Azure-SDK-For-Python AZURECLI/2.0.63
+        azure-mgmt-containerservice/5.2.0 Azure-SDK-For-Python AZURECLI/2.0.64
       accept-language:
       - en-US
     method: PUT
@@ -1937,7 +1445,7 @@ interactions:
   response:
     body:
       string: "{\n  \"code\": \"ServicePrincipalNotFound\",\n  \"message\": \"Service
-        principal clientID: clitest000002 not found in Active Directory tenant 54826b22-38d6-4fb2-bad9-b7b93a3e9c5a,
+        principal clientID: clitest000002 not found in Active Directory tenant 72f988bf-86f1-41af-91ab-2d7cd011db47,
         Please see https://aka.ms/aks-sp-help for more details.\"\n }"
     headers:
       cache-control:
@@ -1947,7 +1455,7 @@ interactions:
       content-type:
       - application/json
       date:
-      - Thu, 02 May 2019 17:48:59 GMT
+      - Mon, 13 May 2019 23:49:36 GMT
       expires:
       - '-1'
       pragma:
@@ -1959,17 +1467,17 @@ interactions:
       x-content-type-options:
       - nosniff
       x-ms-ratelimit-remaining-subscription-writes:
-      - '1198'
+      - '1199'
     status:
       code: 400
       message: Bad Request
 - request:
     body: 'b''b\''b\\\''b\\\\\\\''{"location": "eastus", "properties": {"kubernetesVersion":
-      "", "dnsPrefix": "cliakstest-clitestdh4xhiwcr-0b1f64", "agentPoolProfiles":
+      "", "dnsPrefix": "cliakstest-clitestxnmlv4jej-c9cbd9", "agentPoolProfiles":
       [{"name": "nodepool1", "count": 1, "vmSize": "Standard_DS2_v2", "vnetSubnetID":
       "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.Network/virtualNetworks/clivnet000004/subnets/clisubnet000005",
       "osType": "Linux"}], "servicePrincipalProfile": {"clientId": "clitest000002",
-      "secret": "8695ed3b-6b5f-4082-9c53-3c3420314d3a"}, "addonProfiles": {}, "enableRBAC":
+      "secret": "b160e205-83b8-4d2e-ac45-ef78f8baa157"}, "addonProfiles": {}, "enableRBAC":
       true}}\\\\\\\''\\\''\'''''
     headers:
       Accept:
@@ -1989,7 +1497,7 @@ interactions:
         --vnet-subnet-id --skip-subnet-role-assignment --no-ssh-key
       User-Agent:
       - python/3.7.2 (Darwin-18.5.0-x86_64-i386-64bit) msrest/0.6.6 msrest_azure/0.6.0
-        azure-mgmt-containerservice/5.2.0 Azure-SDK-For-Python AZURECLI/2.0.63
+        azure-mgmt-containerservice/5.2.0 Azure-SDK-For-Python AZURECLI/2.0.64
       accept-language:
       - en-US
     method: PUT
@@ -1997,7 +1505,7 @@ interactions:
   response:
     body:
       string: "{\n  \"code\": \"ServicePrincipalNotFound\",\n  \"message\": \"Service
-        principal clientID: clitest000002 not found in Active Directory tenant 54826b22-38d6-4fb2-bad9-b7b93a3e9c5a,
+        principal clientID: clitest000002 not found in Active Directory tenant 72f988bf-86f1-41af-91ab-2d7cd011db47,
         Please see https://aka.ms/aks-sp-help for more details.\"\n }"
     headers:
       cache-control:
@@ -2007,67 +1515,7 @@ interactions:
       content-type:
       - application/json
       date:
-      - Thu, 02 May 2019 17:49:24 GMT
-      expires:
-      - '-1'
-      pragma:
-      - no-cache
-      server:
-      - nginx
-      strict-transport-security:
-      - max-age=31536000; includeSubDomains
-      x-content-type-options:
-      - nosniff
-      x-ms-ratelimit-remaining-subscription-writes:
-      - '1198'
-    status:
-      code: 400
-      message: Bad Request
-- request:
-    body: 'b''b\''b\\\''b\\\\\\\''{"location": "eastus", "properties": {"kubernetesVersion":
-      "", "dnsPrefix": "cliakstest-clitestdh4xhiwcr-0b1f64", "agentPoolProfiles":
-      [{"name": "nodepool1", "count": 1, "vmSize": "Standard_DS2_v2", "vnetSubnetID":
-      "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.Network/virtualNetworks/clivnet000004/subnets/clisubnet000005",
-      "osType": "Linux"}], "servicePrincipalProfile": {"clientId": "clitest000002",
-      "secret": "8695ed3b-6b5f-4082-9c53-3c3420314d3a"}, "addonProfiles": {}, "enableRBAC":
-      true}}\\\\\\\''\\\''\'''''
-    headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip, deflate
-      CommandName:
-      - aks create
-      Connection:
-      - keep-alive
-      Content-Length:
-      - '570'
-      Content-Type:
-      - application/json; charset=utf-8
-      ParameterSetName:
-      - --resource-group --name --location --node-count --service-principal --client-secret
-        --vnet-subnet-id --skip-subnet-role-assignment --no-ssh-key
-      User-Agent:
-      - python/3.7.2 (Darwin-18.5.0-x86_64-i386-64bit) msrest/0.6.6 msrest_azure/0.6.0
-        azure-mgmt-containerservice/5.2.0 Azure-SDK-For-Python AZURECLI/2.0.63
-      accept-language:
-      - en-US
-    method: PUT
-    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.ContainerService/managedClusters/cliakstest000003?api-version=2019-02-01
-  response:
-    body:
-      string: "{\n  \"code\": \"ServicePrincipalNotFound\",\n  \"message\": \"Service
-        principal clientID: clitest000002 not found in Active Directory tenant 54826b22-38d6-4fb2-bad9-b7b93a3e9c5a,
-        Please see https://aka.ms/aks-sp-help for more details.\"\n }"
-    headers:
-      cache-control:
-      - no-cache
-      content-length:
-      - '241'
-      content-type:
-      - application/json
-      date:
-      - Thu, 02 May 2019 17:49:49 GMT
+      - Mon, 13 May 2019 23:49:58 GMT
       expires:
       - '-1'
       pragma:
@@ -2085,11 +1533,11 @@ interactions:
       message: Bad Request
 - request:
     body: 'b''b\''b\\\''b\\\\\\\''{"location": "eastus", "properties": {"kubernetesVersion":
-      "", "dnsPrefix": "cliakstest-clitestdh4xhiwcr-0b1f64", "agentPoolProfiles":
+      "", "dnsPrefix": "cliakstest-clitestxnmlv4jej-c9cbd9", "agentPoolProfiles":
       [{"name": "nodepool1", "count": 1, "vmSize": "Standard_DS2_v2", "vnetSubnetID":
       "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.Network/virtualNetworks/clivnet000004/subnets/clisubnet000005",
       "osType": "Linux"}], "servicePrincipalProfile": {"clientId": "clitest000002",
-      "secret": "8695ed3b-6b5f-4082-9c53-3c3420314d3a"}, "addonProfiles": {}, "enableRBAC":
+      "secret": "b160e205-83b8-4d2e-ac45-ef78f8baa157"}, "addonProfiles": {}, "enableRBAC":
       true}}\\\\\\\''\\\''\'''''
     headers:
       Accept:
@@ -2109,7 +1557,7 @@ interactions:
         --vnet-subnet-id --skip-subnet-role-assignment --no-ssh-key
       User-Agent:
       - python/3.7.2 (Darwin-18.5.0-x86_64-i386-64bit) msrest/0.6.6 msrest_azure/0.6.0
-        azure-mgmt-containerservice/5.2.0 Azure-SDK-For-Python AZURECLI/2.0.63
+        azure-mgmt-containerservice/5.2.0 Azure-SDK-For-Python AZURECLI/2.0.64
       accept-language:
       - en-US
     method: PUT
@@ -2117,7 +1565,7 @@ interactions:
   response:
     body:
       string: "{\n  \"code\": \"ServicePrincipalNotFound\",\n  \"message\": \"Service
-        principal clientID: clitest000002 not found in Active Directory tenant 54826b22-38d6-4fb2-bad9-b7b93a3e9c5a,
+        principal clientID: clitest000002 not found in Active Directory tenant 72f988bf-86f1-41af-91ab-2d7cd011db47,
         Please see https://aka.ms/aks-sp-help for more details.\"\n }"
     headers:
       cache-control:
@@ -2127,67 +1575,7 @@ interactions:
       content-type:
       - application/json
       date:
-      - Thu, 02 May 2019 17:50:12 GMT
-      expires:
-      - '-1'
-      pragma:
-      - no-cache
-      server:
-      - nginx
-      strict-transport-security:
-      - max-age=31536000; includeSubDomains
-      x-content-type-options:
-      - nosniff
-      x-ms-ratelimit-remaining-subscription-writes:
-      - '1197'
-    status:
-      code: 400
-      message: Bad Request
-- request:
-    body: 'b''b\''b\\\''b\\\\\\\''{"location": "eastus", "properties": {"kubernetesVersion":
-      "", "dnsPrefix": "cliakstest-clitestdh4xhiwcr-0b1f64", "agentPoolProfiles":
-      [{"name": "nodepool1", "count": 1, "vmSize": "Standard_DS2_v2", "vnetSubnetID":
-      "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.Network/virtualNetworks/clivnet000004/subnets/clisubnet000005",
-      "osType": "Linux"}], "servicePrincipalProfile": {"clientId": "clitest000002",
-      "secret": "8695ed3b-6b5f-4082-9c53-3c3420314d3a"}, "addonProfiles": {}, "enableRBAC":
-      true}}\\\\\\\''\\\''\'''''
-    headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip, deflate
-      CommandName:
-      - aks create
-      Connection:
-      - keep-alive
-      Content-Length:
-      - '570'
-      Content-Type:
-      - application/json; charset=utf-8
-      ParameterSetName:
-      - --resource-group --name --location --node-count --service-principal --client-secret
-        --vnet-subnet-id --skip-subnet-role-assignment --no-ssh-key
-      User-Agent:
-      - python/3.7.2 (Darwin-18.5.0-x86_64-i386-64bit) msrest/0.6.6 msrest_azure/0.6.0
-        azure-mgmt-containerservice/5.2.0 Azure-SDK-For-Python AZURECLI/2.0.63
-      accept-language:
-      - en-US
-    method: PUT
-    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.ContainerService/managedClusters/cliakstest000003?api-version=2019-02-01
-  response:
-    body:
-      string: "{\n  \"code\": \"ServicePrincipalNotFound\",\n  \"message\": \"Service
-        principal clientID: clitest000002 not found in Active Directory tenant 54826b22-38d6-4fb2-bad9-b7b93a3e9c5a,
-        Please see https://aka.ms/aks-sp-help for more details.\"\n }"
-    headers:
-      cache-control:
-      - no-cache
-      content-length:
-      - '241'
-      content-type:
-      - application/json
-      date:
-      - Thu, 02 May 2019 17:50:33 GMT
+      - Mon, 13 May 2019 23:50:21 GMT
       expires:
       - '-1'
       pragma:
@@ -2205,11 +1593,11 @@ interactions:
       message: Bad Request
 - request:
     body: 'b''b\''b\\\''b\\\\\\\''{"location": "eastus", "properties": {"kubernetesVersion":
-      "", "dnsPrefix": "cliakstest-clitestdh4xhiwcr-0b1f64", "agentPoolProfiles":
+      "", "dnsPrefix": "cliakstest-clitestxnmlv4jej-c9cbd9", "agentPoolProfiles":
       [{"name": "nodepool1", "count": 1, "vmSize": "Standard_DS2_v2", "vnetSubnetID":
       "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.Network/virtualNetworks/clivnet000004/subnets/clisubnet000005",
       "osType": "Linux"}], "servicePrincipalProfile": {"clientId": "clitest000002",
-      "secret": "8695ed3b-6b5f-4082-9c53-3c3420314d3a"}, "addonProfiles": {}, "enableRBAC":
+      "secret": "b160e205-83b8-4d2e-ac45-ef78f8baa157"}, "addonProfiles": {}, "enableRBAC":
       true}}\\\\\\\''\\\''\'''''
     headers:
       Accept:
@@ -2229,7 +1617,7 @@ interactions:
         --vnet-subnet-id --skip-subnet-role-assignment --no-ssh-key
       User-Agent:
       - python/3.7.2 (Darwin-18.5.0-x86_64-i386-64bit) msrest/0.6.6 msrest_azure/0.6.0
-        azure-mgmt-containerservice/5.2.0 Azure-SDK-For-Python AZURECLI/2.0.63
+        azure-mgmt-containerservice/5.2.0 Azure-SDK-For-Python AZURECLI/2.0.64
       accept-language:
       - en-US
     method: PUT
@@ -2237,7 +1625,7 @@ interactions:
   response:
     body:
       string: "{\n  \"code\": \"ServicePrincipalNotFound\",\n  \"message\": \"Service
-        principal clientID: clitest000002 not found in Active Directory tenant 54826b22-38d6-4fb2-bad9-b7b93a3e9c5a,
+        principal clientID: clitest000002 not found in Active Directory tenant 72f988bf-86f1-41af-91ab-2d7cd011db47,
         Please see https://aka.ms/aks-sp-help for more details.\"\n }"
     headers:
       cache-control:
@@ -2247,127 +1635,7 @@ interactions:
       content-type:
       - application/json
       date:
-      - Thu, 02 May 2019 17:50:55 GMT
-      expires:
-      - '-1'
-      pragma:
-      - no-cache
-      server:
-      - nginx
-      strict-transport-security:
-      - max-age=31536000; includeSubDomains
-      x-content-type-options:
-      - nosniff
-      x-ms-ratelimit-remaining-subscription-writes:
-      - '1197'
-    status:
-      code: 400
-      message: Bad Request
-- request:
-    body: 'b''b\''b\\\''b\\\\\\\''{"location": "eastus", "properties": {"kubernetesVersion":
-      "", "dnsPrefix": "cliakstest-clitestdh4xhiwcr-0b1f64", "agentPoolProfiles":
-      [{"name": "nodepool1", "count": 1, "vmSize": "Standard_DS2_v2", "vnetSubnetID":
-      "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.Network/virtualNetworks/clivnet000004/subnets/clisubnet000005",
-      "osType": "Linux"}], "servicePrincipalProfile": {"clientId": "clitest000002",
-      "secret": "8695ed3b-6b5f-4082-9c53-3c3420314d3a"}, "addonProfiles": {}, "enableRBAC":
-      true}}\\\\\\\''\\\''\'''''
-    headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip, deflate
-      CommandName:
-      - aks create
-      Connection:
-      - keep-alive
-      Content-Length:
-      - '570'
-      Content-Type:
-      - application/json; charset=utf-8
-      ParameterSetName:
-      - --resource-group --name --location --node-count --service-principal --client-secret
-        --vnet-subnet-id --skip-subnet-role-assignment --no-ssh-key
-      User-Agent:
-      - python/3.7.2 (Darwin-18.5.0-x86_64-i386-64bit) msrest/0.6.6 msrest_azure/0.6.0
-        azure-mgmt-containerservice/5.2.0 Azure-SDK-For-Python AZURECLI/2.0.63
-      accept-language:
-      - en-US
-    method: PUT
-    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.ContainerService/managedClusters/cliakstest000003?api-version=2019-02-01
-  response:
-    body:
-      string: "{\n  \"code\": \"ServicePrincipalNotFound\",\n  \"message\": \"Service
-        principal clientID: clitest000002 not found in Active Directory tenant 54826b22-38d6-4fb2-bad9-b7b93a3e9c5a,
-        Please see https://aka.ms/aks-sp-help for more details.\"\n }"
-    headers:
-      cache-control:
-      - no-cache
-      content-length:
-      - '241'
-      content-type:
-      - application/json
-      date:
-      - Thu, 02 May 2019 17:51:20 GMT
-      expires:
-      - '-1'
-      pragma:
-      - no-cache
-      server:
-      - nginx
-      strict-transport-security:
-      - max-age=31536000; includeSubDomains
-      x-content-type-options:
-      - nosniff
-      x-ms-ratelimit-remaining-subscription-writes:
-      - '1197'
-    status:
-      code: 400
-      message: Bad Request
-- request:
-    body: 'b''b\''b\\\''b\\\\\\\''{"location": "eastus", "properties": {"kubernetesVersion":
-      "", "dnsPrefix": "cliakstest-clitestdh4xhiwcr-0b1f64", "agentPoolProfiles":
-      [{"name": "nodepool1", "count": 1, "vmSize": "Standard_DS2_v2", "vnetSubnetID":
-      "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.Network/virtualNetworks/clivnet000004/subnets/clisubnet000005",
-      "osType": "Linux"}], "servicePrincipalProfile": {"clientId": "clitest000002",
-      "secret": "8695ed3b-6b5f-4082-9c53-3c3420314d3a"}, "addonProfiles": {}, "enableRBAC":
-      true}}\\\\\\\''\\\''\'''''
-    headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip, deflate
-      CommandName:
-      - aks create
-      Connection:
-      - keep-alive
-      Content-Length:
-      - '570'
-      Content-Type:
-      - application/json; charset=utf-8
-      ParameterSetName:
-      - --resource-group --name --location --node-count --service-principal --client-secret
-        --vnet-subnet-id --skip-subnet-role-assignment --no-ssh-key
-      User-Agent:
-      - python/3.7.2 (Darwin-18.5.0-x86_64-i386-64bit) msrest/0.6.6 msrest_azure/0.6.0
-        azure-mgmt-containerservice/5.2.0 Azure-SDK-For-Python AZURECLI/2.0.63
-      accept-language:
-      - en-US
-    method: PUT
-    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.ContainerService/managedClusters/cliakstest000003?api-version=2019-02-01
-  response:
-    body:
-      string: "{\n  \"code\": \"ServicePrincipalNotFound\",\n  \"message\": \"Service
-        principal clientID: clitest000002 not found in Active Directory tenant 54826b22-38d6-4fb2-bad9-b7b93a3e9c5a,
-        Please see https://aka.ms/aks-sp-help for more details.\"\n }"
-    headers:
-      cache-control:
-      - no-cache
-      content-length:
-      - '241'
-      content-type:
-      - application/json
-      date:
-      - Thu, 02 May 2019 17:51:42 GMT
+      - Mon, 13 May 2019 23:50:45 GMT
       expires:
       - '-1'
       pragma:
@@ -2380,6 +1648,786 @@ interactions:
       - nosniff
       x-ms-ratelimit-remaining-subscription-writes:
       - '1198'
+    status:
+      code: 400
+      message: Bad Request
+- request:
+    body: 'b''b\''b\\\''b\\\\\\\''{"location": "eastus", "properties": {"kubernetesVersion":
+      "", "dnsPrefix": "cliakstest-clitestxnmlv4jej-c9cbd9", "agentPoolProfiles":
+      [{"name": "nodepool1", "count": 1, "vmSize": "Standard_DS2_v2", "vnetSubnetID":
+      "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.Network/virtualNetworks/clivnet000004/subnets/clisubnet000005",
+      "osType": "Linux"}], "servicePrincipalProfile": {"clientId": "clitest000002",
+      "secret": "b160e205-83b8-4d2e-ac45-ef78f8baa157"}, "addonProfiles": {}, "enableRBAC":
+      true}}\\\\\\\''\\\''\'''''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      CommandName:
+      - aks create
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '570'
+      Content-Type:
+      - application/json; charset=utf-8
+      ParameterSetName:
+      - --resource-group --name --location --node-count --service-principal --client-secret
+        --vnet-subnet-id --skip-subnet-role-assignment --no-ssh-key
+      User-Agent:
+      - python/3.7.2 (Darwin-18.5.0-x86_64-i386-64bit) msrest/0.6.6 msrest_azure/0.6.0
+        azure-mgmt-containerservice/5.2.0 Azure-SDK-For-Python AZURECLI/2.0.64
+      accept-language:
+      - en-US
+    method: PUT
+    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.ContainerService/managedClusters/cliakstest000003?api-version=2019-02-01
+  response:
+    body:
+      string: "{\n  \"code\": \"ServicePrincipalNotFound\",\n  \"message\": \"Service
+        principal clientID: clitest000002 not found in Active Directory tenant 72f988bf-86f1-41af-91ab-2d7cd011db47,
+        Please see https://aka.ms/aks-sp-help for more details.\"\n }"
+    headers:
+      cache-control:
+      - no-cache
+      content-length:
+      - '241'
+      content-type:
+      - application/json
+      date:
+      - Mon, 13 May 2019 23:51:10 GMT
+      expires:
+      - '-1'
+      pragma:
+      - no-cache
+      server:
+      - nginx
+      strict-transport-security:
+      - max-age=31536000; includeSubDomains
+      x-content-type-options:
+      - nosniff
+      x-ms-ratelimit-remaining-subscription-writes:
+      - '1198'
+    status:
+      code: 400
+      message: Bad Request
+- request:
+    body: 'b''b\''b\\\''b\\\\\\\''{"location": "eastus", "properties": {"kubernetesVersion":
+      "", "dnsPrefix": "cliakstest-clitestxnmlv4jej-c9cbd9", "agentPoolProfiles":
+      [{"name": "nodepool1", "count": 1, "vmSize": "Standard_DS2_v2", "vnetSubnetID":
+      "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.Network/virtualNetworks/clivnet000004/subnets/clisubnet000005",
+      "osType": "Linux"}], "servicePrincipalProfile": {"clientId": "clitest000002",
+      "secret": "b160e205-83b8-4d2e-ac45-ef78f8baa157"}, "addonProfiles": {}, "enableRBAC":
+      true}}\\\\\\\''\\\''\'''''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      CommandName:
+      - aks create
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '570'
+      Content-Type:
+      - application/json; charset=utf-8
+      ParameterSetName:
+      - --resource-group --name --location --node-count --service-principal --client-secret
+        --vnet-subnet-id --skip-subnet-role-assignment --no-ssh-key
+      User-Agent:
+      - python/3.7.2 (Darwin-18.5.0-x86_64-i386-64bit) msrest/0.6.6 msrest_azure/0.6.0
+        azure-mgmt-containerservice/5.2.0 Azure-SDK-For-Python AZURECLI/2.0.64
+      accept-language:
+      - en-US
+    method: PUT
+    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.ContainerService/managedClusters/cliakstest000003?api-version=2019-02-01
+  response:
+    body:
+      string: "{\n  \"code\": \"ServicePrincipalNotFound\",\n  \"message\": \"Service
+        principal clientID: clitest000002 not found in Active Directory tenant 72f988bf-86f1-41af-91ab-2d7cd011db47,
+        Please see https://aka.ms/aks-sp-help for more details.\"\n }"
+    headers:
+      cache-control:
+      - no-cache
+      content-length:
+      - '241'
+      content-type:
+      - application/json
+      date:
+      - Mon, 13 May 2019 23:51:33 GMT
+      expires:
+      - '-1'
+      pragma:
+      - no-cache
+      server:
+      - nginx
+      strict-transport-security:
+      - max-age=31536000; includeSubDomains
+      x-content-type-options:
+      - nosniff
+      x-ms-ratelimit-remaining-subscription-writes:
+      - '1198'
+    status:
+      code: 400
+      message: Bad Request
+- request:
+    body: 'b''b\''b\\\''b\\\\\\\''{"location": "eastus", "properties": {"kubernetesVersion":
+      "", "dnsPrefix": "cliakstest-clitestxnmlv4jej-c9cbd9", "agentPoolProfiles":
+      [{"name": "nodepool1", "count": 1, "vmSize": "Standard_DS2_v2", "vnetSubnetID":
+      "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.Network/virtualNetworks/clivnet000004/subnets/clisubnet000005",
+      "osType": "Linux"}], "servicePrincipalProfile": {"clientId": "clitest000002",
+      "secret": "b160e205-83b8-4d2e-ac45-ef78f8baa157"}, "addonProfiles": {}, "enableRBAC":
+      true}}\\\\\\\''\\\''\'''''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      CommandName:
+      - aks create
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '570'
+      Content-Type:
+      - application/json; charset=utf-8
+      ParameterSetName:
+      - --resource-group --name --location --node-count --service-principal --client-secret
+        --vnet-subnet-id --skip-subnet-role-assignment --no-ssh-key
+      User-Agent:
+      - python/3.7.2 (Darwin-18.5.0-x86_64-i386-64bit) msrest/0.6.6 msrest_azure/0.6.0
+        azure-mgmt-containerservice/5.2.0 Azure-SDK-For-Python AZURECLI/2.0.64
+      accept-language:
+      - en-US
+    method: PUT
+    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.ContainerService/managedClusters/cliakstest000003?api-version=2019-02-01
+  response:
+    body:
+      string: "{\n  \"code\": \"ServicePrincipalNotFound\",\n  \"message\": \"Service
+        principal clientID: clitest000002 not found in Active Directory tenant 72f988bf-86f1-41af-91ab-2d7cd011db47,
+        Please see https://aka.ms/aks-sp-help for more details.\"\n }"
+    headers:
+      cache-control:
+      - no-cache
+      content-length:
+      - '241'
+      content-type:
+      - application/json
+      date:
+      - Mon, 13 May 2019 23:51:54 GMT
+      expires:
+      - '-1'
+      pragma:
+      - no-cache
+      server:
+      - nginx
+      strict-transport-security:
+      - max-age=31536000; includeSubDomains
+      x-content-type-options:
+      - nosniff
+      x-ms-ratelimit-remaining-subscription-writes:
+      - '1197'
+    status:
+      code: 400
+      message: Bad Request
+- request:
+    body: 'b''b\''b\\\''b\\\\\\\''{"location": "eastus", "properties": {"kubernetesVersion":
+      "", "dnsPrefix": "cliakstest-clitestxnmlv4jej-c9cbd9", "agentPoolProfiles":
+      [{"name": "nodepool1", "count": 1, "vmSize": "Standard_DS2_v2", "vnetSubnetID":
+      "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.Network/virtualNetworks/clivnet000004/subnets/clisubnet000005",
+      "osType": "Linux"}], "servicePrincipalProfile": {"clientId": "clitest000002",
+      "secret": "b160e205-83b8-4d2e-ac45-ef78f8baa157"}, "addonProfiles": {}, "enableRBAC":
+      true}}\\\\\\\''\\\''\'''''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      CommandName:
+      - aks create
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '570'
+      Content-Type:
+      - application/json; charset=utf-8
+      ParameterSetName:
+      - --resource-group --name --location --node-count --service-principal --client-secret
+        --vnet-subnet-id --skip-subnet-role-assignment --no-ssh-key
+      User-Agent:
+      - python/3.7.2 (Darwin-18.5.0-x86_64-i386-64bit) msrest/0.6.6 msrest_azure/0.6.0
+        azure-mgmt-containerservice/5.2.0 Azure-SDK-For-Python AZURECLI/2.0.64
+      accept-language:
+      - en-US
+    method: PUT
+    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.ContainerService/managedClusters/cliakstest000003?api-version=2019-02-01
+  response:
+    body:
+      string: "{\n  \"code\": \"ServicePrincipalNotFound\",\n  \"message\": \"Service
+        principal clientID: clitest000002 not found in Active Directory tenant 72f988bf-86f1-41af-91ab-2d7cd011db47,
+        Please see https://aka.ms/aks-sp-help for more details.\"\n }"
+    headers:
+      cache-control:
+      - no-cache
+      content-length:
+      - '241'
+      content-type:
+      - application/json
+      date:
+      - Mon, 13 May 2019 23:52:17 GMT
+      expires:
+      - '-1'
+      pragma:
+      - no-cache
+      server:
+      - nginx
+      strict-transport-security:
+      - max-age=31536000; includeSubDomains
+      x-content-type-options:
+      - nosniff
+      x-ms-ratelimit-remaining-subscription-writes:
+      - '1198'
+    status:
+      code: 400
+      message: Bad Request
+- request:
+    body: 'b''b\''b\\\''b\\\\\\\''{"location": "eastus", "properties": {"kubernetesVersion":
+      "", "dnsPrefix": "cliakstest-clitestxnmlv4jej-c9cbd9", "agentPoolProfiles":
+      [{"name": "nodepool1", "count": 1, "vmSize": "Standard_DS2_v2", "vnetSubnetID":
+      "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.Network/virtualNetworks/clivnet000004/subnets/clisubnet000005",
+      "osType": "Linux"}], "servicePrincipalProfile": {"clientId": "clitest000002",
+      "secret": "b160e205-83b8-4d2e-ac45-ef78f8baa157"}, "addonProfiles": {}, "enableRBAC":
+      true}}\\\\\\\''\\\''\'''''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      CommandName:
+      - aks create
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '570'
+      Content-Type:
+      - application/json; charset=utf-8
+      ParameterSetName:
+      - --resource-group --name --location --node-count --service-principal --client-secret
+        --vnet-subnet-id --skip-subnet-role-assignment --no-ssh-key
+      User-Agent:
+      - python/3.7.2 (Darwin-18.5.0-x86_64-i386-64bit) msrest/0.6.6 msrest_azure/0.6.0
+        azure-mgmt-containerservice/5.2.0 Azure-SDK-For-Python AZURECLI/2.0.64
+      accept-language:
+      - en-US
+    method: PUT
+    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.ContainerService/managedClusters/cliakstest000003?api-version=2019-02-01
+  response:
+    body:
+      string: "{\n  \"code\": \"ServicePrincipalNotFound\",\n  \"message\": \"Service
+        principal clientID: clitest000002 not found in Active Directory tenant 72f988bf-86f1-41af-91ab-2d7cd011db47,
+        Please see https://aka.ms/aks-sp-help for more details.\"\n }"
+    headers:
+      cache-control:
+      - no-cache
+      content-length:
+      - '241'
+      content-type:
+      - application/json
+      date:
+      - Mon, 13 May 2019 23:52:39 GMT
+      expires:
+      - '-1'
+      pragma:
+      - no-cache
+      server:
+      - nginx
+      strict-transport-security:
+      - max-age=31536000; includeSubDomains
+      x-content-type-options:
+      - nosniff
+      x-ms-ratelimit-remaining-subscription-writes:
+      - '1197'
+    status:
+      code: 400
+      message: Bad Request
+- request:
+    body: 'b''b\''b\\\''b\\\\\\\''{"location": "eastus", "properties": {"kubernetesVersion":
+      "", "dnsPrefix": "cliakstest-clitestxnmlv4jej-c9cbd9", "agentPoolProfiles":
+      [{"name": "nodepool1", "count": 1, "vmSize": "Standard_DS2_v2", "vnetSubnetID":
+      "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.Network/virtualNetworks/clivnet000004/subnets/clisubnet000005",
+      "osType": "Linux"}], "servicePrincipalProfile": {"clientId": "clitest000002",
+      "secret": "b160e205-83b8-4d2e-ac45-ef78f8baa157"}, "addonProfiles": {}, "enableRBAC":
+      true}}\\\\\\\''\\\''\'''''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      CommandName:
+      - aks create
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '570'
+      Content-Type:
+      - application/json; charset=utf-8
+      ParameterSetName:
+      - --resource-group --name --location --node-count --service-principal --client-secret
+        --vnet-subnet-id --skip-subnet-role-assignment --no-ssh-key
+      User-Agent:
+      - python/3.7.2 (Darwin-18.5.0-x86_64-i386-64bit) msrest/0.6.6 msrest_azure/0.6.0
+        azure-mgmt-containerservice/5.2.0 Azure-SDK-For-Python AZURECLI/2.0.64
+      accept-language:
+      - en-US
+    method: PUT
+    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.ContainerService/managedClusters/cliakstest000003?api-version=2019-02-01
+  response:
+    body:
+      string: "{\n  \"code\": \"ServicePrincipalNotFound\",\n  \"message\": \"Service
+        principal clientID: clitest000002 not found in Active Directory tenant 72f988bf-86f1-41af-91ab-2d7cd011db47,
+        Please see https://aka.ms/aks-sp-help for more details.\"\n }"
+    headers:
+      cache-control:
+      - no-cache
+      content-length:
+      - '241'
+      content-type:
+      - application/json
+      date:
+      - Mon, 13 May 2019 23:53:04 GMT
+      expires:
+      - '-1'
+      pragma:
+      - no-cache
+      server:
+      - nginx
+      strict-transport-security:
+      - max-age=31536000; includeSubDomains
+      x-content-type-options:
+      - nosniff
+      x-ms-ratelimit-remaining-subscription-writes:
+      - '1198'
+    status:
+      code: 400
+      message: Bad Request
+- request:
+    body: 'b''b\''b\\\''b\\\\\\\''{"location": "eastus", "properties": {"kubernetesVersion":
+      "", "dnsPrefix": "cliakstest-clitestxnmlv4jej-c9cbd9", "agentPoolProfiles":
+      [{"name": "nodepool1", "count": 1, "vmSize": "Standard_DS2_v2", "vnetSubnetID":
+      "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.Network/virtualNetworks/clivnet000004/subnets/clisubnet000005",
+      "osType": "Linux"}], "servicePrincipalProfile": {"clientId": "clitest000002",
+      "secret": "b160e205-83b8-4d2e-ac45-ef78f8baa157"}, "addonProfiles": {}, "enableRBAC":
+      true}}\\\\\\\''\\\''\'''''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      CommandName:
+      - aks create
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '570'
+      Content-Type:
+      - application/json; charset=utf-8
+      ParameterSetName:
+      - --resource-group --name --location --node-count --service-principal --client-secret
+        --vnet-subnet-id --skip-subnet-role-assignment --no-ssh-key
+      User-Agent:
+      - python/3.7.2 (Darwin-18.5.0-x86_64-i386-64bit) msrest/0.6.6 msrest_azure/0.6.0
+        azure-mgmt-containerservice/5.2.0 Azure-SDK-For-Python AZURECLI/2.0.64
+      accept-language:
+      - en-US
+    method: PUT
+    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.ContainerService/managedClusters/cliakstest000003?api-version=2019-02-01
+  response:
+    body:
+      string: "{\n  \"code\": \"ServicePrincipalNotFound\",\n  \"message\": \"Service
+        principal clientID: clitest000002 not found in Active Directory tenant 72f988bf-86f1-41af-91ab-2d7cd011db47,
+        Please see https://aka.ms/aks-sp-help for more details.\"\n }"
+    headers:
+      cache-control:
+      - no-cache
+      content-length:
+      - '241'
+      content-type:
+      - application/json
+      date:
+      - Mon, 13 May 2019 23:53:31 GMT
+      expires:
+      - '-1'
+      pragma:
+      - no-cache
+      server:
+      - nginx
+      strict-transport-security:
+      - max-age=31536000; includeSubDomains
+      x-content-type-options:
+      - nosniff
+      x-ms-ratelimit-remaining-subscription-writes:
+      - '1196'
+    status:
+      code: 400
+      message: Bad Request
+- request:
+    body: 'b''b\''b\\\''b\\\\\\\''{"location": "eastus", "properties": {"kubernetesVersion":
+      "", "dnsPrefix": "cliakstest-clitestxnmlv4jej-c9cbd9", "agentPoolProfiles":
+      [{"name": "nodepool1", "count": 1, "vmSize": "Standard_DS2_v2", "vnetSubnetID":
+      "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.Network/virtualNetworks/clivnet000004/subnets/clisubnet000005",
+      "osType": "Linux"}], "servicePrincipalProfile": {"clientId": "clitest000002",
+      "secret": "b160e205-83b8-4d2e-ac45-ef78f8baa157"}, "addonProfiles": {}, "enableRBAC":
+      true}}\\\\\\\''\\\''\'''''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      CommandName:
+      - aks create
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '570'
+      Content-Type:
+      - application/json; charset=utf-8
+      ParameterSetName:
+      - --resource-group --name --location --node-count --service-principal --client-secret
+        --vnet-subnet-id --skip-subnet-role-assignment --no-ssh-key
+      User-Agent:
+      - python/3.7.2 (Darwin-18.5.0-x86_64-i386-64bit) msrest/0.6.6 msrest_azure/0.6.0
+        azure-mgmt-containerservice/5.2.0 Azure-SDK-For-Python AZURECLI/2.0.64
+      accept-language:
+      - en-US
+    method: PUT
+    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.ContainerService/managedClusters/cliakstest000003?api-version=2019-02-01
+  response:
+    body:
+      string: "{\n  \"code\": \"ServicePrincipalNotFound\",\n  \"message\": \"Service
+        principal clientID: clitest000002 not found in Active Directory tenant 72f988bf-86f1-41af-91ab-2d7cd011db47,
+        Please see https://aka.ms/aks-sp-help for more details.\"\n }"
+    headers:
+      cache-control:
+      - no-cache
+      content-length:
+      - '241'
+      content-type:
+      - application/json
+      date:
+      - Mon, 13 May 2019 23:53:53 GMT
+      expires:
+      - '-1'
+      pragma:
+      - no-cache
+      server:
+      - nginx
+      strict-transport-security:
+      - max-age=31536000; includeSubDomains
+      x-content-type-options:
+      - nosniff
+      x-ms-ratelimit-remaining-subscription-writes:
+      - '1197'
+    status:
+      code: 400
+      message: Bad Request
+- request:
+    body: 'b''b\''b\\\''b\\\\\\\''{"location": "eastus", "properties": {"kubernetesVersion":
+      "", "dnsPrefix": "cliakstest-clitestxnmlv4jej-c9cbd9", "agentPoolProfiles":
+      [{"name": "nodepool1", "count": 1, "vmSize": "Standard_DS2_v2", "vnetSubnetID":
+      "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.Network/virtualNetworks/clivnet000004/subnets/clisubnet000005",
+      "osType": "Linux"}], "servicePrincipalProfile": {"clientId": "clitest000002",
+      "secret": "b160e205-83b8-4d2e-ac45-ef78f8baa157"}, "addonProfiles": {}, "enableRBAC":
+      true}}\\\\\\\''\\\''\'''''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      CommandName:
+      - aks create
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '570'
+      Content-Type:
+      - application/json; charset=utf-8
+      ParameterSetName:
+      - --resource-group --name --location --node-count --service-principal --client-secret
+        --vnet-subnet-id --skip-subnet-role-assignment --no-ssh-key
+      User-Agent:
+      - python/3.7.2 (Darwin-18.5.0-x86_64-i386-64bit) msrest/0.6.6 msrest_azure/0.6.0
+        azure-mgmt-containerservice/5.2.0 Azure-SDK-For-Python AZURECLI/2.0.64
+      accept-language:
+      - en-US
+    method: PUT
+    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.ContainerService/managedClusters/cliakstest000003?api-version=2019-02-01
+  response:
+    body:
+      string: "{\n  \"code\": \"ServicePrincipalNotFound\",\n  \"message\": \"Service
+        principal clientID: clitest000002 not found in Active Directory tenant 72f988bf-86f1-41af-91ab-2d7cd011db47,
+        Please see https://aka.ms/aks-sp-help for more details.\"\n }"
+    headers:
+      cache-control:
+      - no-cache
+      content-length:
+      - '241'
+      content-type:
+      - application/json
+      date:
+      - Mon, 13 May 2019 23:54:21 GMT
+      expires:
+      - '-1'
+      pragma:
+      - no-cache
+      server:
+      - nginx
+      strict-transport-security:
+      - max-age=31536000; includeSubDomains
+      x-content-type-options:
+      - nosniff
+      x-ms-ratelimit-remaining-subscription-writes:
+      - '1198'
+    status:
+      code: 400
+      message: Bad Request
+- request:
+    body: 'b''b\''b\\\''b\\\\\\\''{"location": "eastus", "properties": {"kubernetesVersion":
+      "", "dnsPrefix": "cliakstest-clitestxnmlv4jej-c9cbd9", "agentPoolProfiles":
+      [{"name": "nodepool1", "count": 1, "vmSize": "Standard_DS2_v2", "vnetSubnetID":
+      "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.Network/virtualNetworks/clivnet000004/subnets/clisubnet000005",
+      "osType": "Linux"}], "servicePrincipalProfile": {"clientId": "clitest000002",
+      "secret": "b160e205-83b8-4d2e-ac45-ef78f8baa157"}, "addonProfiles": {}, "enableRBAC":
+      true}}\\\\\\\''\\\''\'''''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      CommandName:
+      - aks create
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '570'
+      Content-Type:
+      - application/json; charset=utf-8
+      ParameterSetName:
+      - --resource-group --name --location --node-count --service-principal --client-secret
+        --vnet-subnet-id --skip-subnet-role-assignment --no-ssh-key
+      User-Agent:
+      - python/3.7.2 (Darwin-18.5.0-x86_64-i386-64bit) msrest/0.6.6 msrest_azure/0.6.0
+        azure-mgmt-containerservice/5.2.0 Azure-SDK-For-Python AZURECLI/2.0.64
+      accept-language:
+      - en-US
+    method: PUT
+    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.ContainerService/managedClusters/cliakstest000003?api-version=2019-02-01
+  response:
+    body:
+      string: "{\n  \"code\": \"ServicePrincipalNotFound\",\n  \"message\": \"Service
+        principal clientID: clitest000002 not found in Active Directory tenant 72f988bf-86f1-41af-91ab-2d7cd011db47,
+        Please see https://aka.ms/aks-sp-help for more details.\"\n }"
+    headers:
+      cache-control:
+      - no-cache
+      content-length:
+      - '241'
+      content-type:
+      - application/json
+      date:
+      - Mon, 13 May 2019 23:54:49 GMT
+      expires:
+      - '-1'
+      pragma:
+      - no-cache
+      server:
+      - nginx
+      strict-transport-security:
+      - max-age=31536000; includeSubDomains
+      x-content-type-options:
+      - nosniff
+      x-ms-ratelimit-remaining-subscription-writes:
+      - '1196'
+    status:
+      code: 400
+      message: Bad Request
+- request:
+    body: 'b''b\''b\\\''b\\\\\\\''{"location": "eastus", "properties": {"kubernetesVersion":
+      "", "dnsPrefix": "cliakstest-clitestxnmlv4jej-c9cbd9", "agentPoolProfiles":
+      [{"name": "nodepool1", "count": 1, "vmSize": "Standard_DS2_v2", "vnetSubnetID":
+      "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.Network/virtualNetworks/clivnet000004/subnets/clisubnet000005",
+      "osType": "Linux"}], "servicePrincipalProfile": {"clientId": "clitest000002",
+      "secret": "b160e205-83b8-4d2e-ac45-ef78f8baa157"}, "addonProfiles": {}, "enableRBAC":
+      true}}\\\\\\\''\\\''\'''''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      CommandName:
+      - aks create
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '570'
+      Content-Type:
+      - application/json; charset=utf-8
+      ParameterSetName:
+      - --resource-group --name --location --node-count --service-principal --client-secret
+        --vnet-subnet-id --skip-subnet-role-assignment --no-ssh-key
+      User-Agent:
+      - python/3.7.2 (Darwin-18.5.0-x86_64-i386-64bit) msrest/0.6.6 msrest_azure/0.6.0
+        azure-mgmt-containerservice/5.2.0 Azure-SDK-For-Python AZURECLI/2.0.64
+      accept-language:
+      - en-US
+    method: PUT
+    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.ContainerService/managedClusters/cliakstest000003?api-version=2019-02-01
+  response:
+    body:
+      string: "{\n  \"code\": \"ServicePrincipalNotFound\",\n  \"message\": \"Service
+        principal clientID: clitest000002 not found in Active Directory tenant 72f988bf-86f1-41af-91ab-2d7cd011db47,
+        Please see https://aka.ms/aks-sp-help for more details.\"\n }"
+    headers:
+      cache-control:
+      - no-cache
+      content-length:
+      - '241'
+      content-type:
+      - application/json
+      date:
+      - Mon, 13 May 2019 23:55:10 GMT
+      expires:
+      - '-1'
+      pragma:
+      - no-cache
+      server:
+      - nginx
+      strict-transport-security:
+      - max-age=31536000; includeSubDomains
+      x-content-type-options:
+      - nosniff
+      x-ms-ratelimit-remaining-subscription-writes:
+      - '1197'
+    status:
+      code: 400
+      message: Bad Request
+- request:
+    body: 'b''b\''b\\\''b\\\\\\\''{"location": "eastus", "properties": {"kubernetesVersion":
+      "", "dnsPrefix": "cliakstest-clitestxnmlv4jej-c9cbd9", "agentPoolProfiles":
+      [{"name": "nodepool1", "count": 1, "vmSize": "Standard_DS2_v2", "vnetSubnetID":
+      "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.Network/virtualNetworks/clivnet000004/subnets/clisubnet000005",
+      "osType": "Linux"}], "servicePrincipalProfile": {"clientId": "clitest000002",
+      "secret": "b160e205-83b8-4d2e-ac45-ef78f8baa157"}, "addonProfiles": {}, "enableRBAC":
+      true}}\\\\\\\''\\\''\'''''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      CommandName:
+      - aks create
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '570'
+      Content-Type:
+      - application/json; charset=utf-8
+      ParameterSetName:
+      - --resource-group --name --location --node-count --service-principal --client-secret
+        --vnet-subnet-id --skip-subnet-role-assignment --no-ssh-key
+      User-Agent:
+      - python/3.7.2 (Darwin-18.5.0-x86_64-i386-64bit) msrest/0.6.6 msrest_azure/0.6.0
+        azure-mgmt-containerservice/5.2.0 Azure-SDK-For-Python AZURECLI/2.0.64
+      accept-language:
+      - en-US
+    method: PUT
+    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.ContainerService/managedClusters/cliakstest000003?api-version=2019-02-01
+  response:
+    body:
+      string: "{\n  \"code\": \"ServicePrincipalNotFound\",\n  \"message\": \"Service
+        principal clientID: clitest000002 not found in Active Directory tenant 72f988bf-86f1-41af-91ab-2d7cd011db47,
+        Please see https://aka.ms/aks-sp-help for more details.\"\n }"
+    headers:
+      cache-control:
+      - no-cache
+      content-length:
+      - '241'
+      content-type:
+      - application/json
+      date:
+      - Mon, 13 May 2019 23:55:41 GMT
+      expires:
+      - '-1'
+      pragma:
+      - no-cache
+      server:
+      - nginx
+      strict-transport-security:
+      - max-age=31536000; includeSubDomains
+      x-content-type-options:
+      - nosniff
+      x-ms-ratelimit-remaining-subscription-writes:
+      - '1198'
+    status:
+      code: 400
+      message: Bad Request
+- request:
+    body: 'b''b\''b\\\''b\\\\\\\''{"location": "eastus", "properties": {"kubernetesVersion":
+      "", "dnsPrefix": "cliakstest-clitestxnmlv4jej-c9cbd9", "agentPoolProfiles":
+      [{"name": "nodepool1", "count": 1, "vmSize": "Standard_DS2_v2", "vnetSubnetID":
+      "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.Network/virtualNetworks/clivnet000004/subnets/clisubnet000005",
+      "osType": "Linux"}], "servicePrincipalProfile": {"clientId": "clitest000002",
+      "secret": "b160e205-83b8-4d2e-ac45-ef78f8baa157"}, "addonProfiles": {}, "enableRBAC":
+      true}}\\\\\\\''\\\''\'''''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      CommandName:
+      - aks create
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '570'
+      Content-Type:
+      - application/json; charset=utf-8
+      ParameterSetName:
+      - --resource-group --name --location --node-count --service-principal --client-secret
+        --vnet-subnet-id --skip-subnet-role-assignment --no-ssh-key
+      User-Agent:
+      - python/3.7.2 (Darwin-18.5.0-x86_64-i386-64bit) msrest/0.6.6 msrest_azure/0.6.0
+        azure-mgmt-containerservice/5.2.0 Azure-SDK-For-Python AZURECLI/2.0.64
+      accept-language:
+      - en-US
+    method: PUT
+    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/clitest000001/providers/Microsoft.ContainerService/managedClusters/cliakstest000003?api-version=2019-02-01
+  response:
+    body:
+      string: "{\n  \"code\": \"ServicePrincipalNotFound\",\n  \"message\": \"Service
+        principal clientID: clitest000002 not found in Active Directory tenant 72f988bf-86f1-41af-91ab-2d7cd011db47,
+        Please see https://aka.ms/aks-sp-help for more details.\"\n }"
+    headers:
+      cache-control:
+      - no-cache
+      content-length:
+      - '241'
+      content-type:
+      - application/json
+      date:
+      - Mon, 13 May 2019 23:56:06 GMT
+      expires:
+      - '-1'
+      pragma:
+      - no-cache
+      server:
+      - nginx
+      strict-transport-security:
+      - max-age=31536000; includeSubDomains
+      x-content-type-options:
+      - nosniff
+      x-ms-ratelimit-remaining-subscription-writes:
+      - '1199'
     status:
       code: 400
       message: Bad Request
@@ -2398,81 +2446,18 @@ interactions:
       - --id
       User-Agent:
       - python/3.7.2 (Darwin-18.5.0-x86_64-i386-64bit) msrest/0.6.6 msrest_azure/0.6.0
-        azure-graphrbac/0.60.0 Azure-SDK-For-Python AZURECLI/2.0.63
+        azure-graphrbac/0.60.0 Azure-SDK-For-Python AZURECLI/2.0.64
       accept-language:
       - en-US
     method: GET
-    uri: https://graph.windows.net/00000000-0000-0000-0000-000000000000/servicePrincipals?$filter=servicePrincipalNames%2Fany%28c%3Ac%20eq%20%271a807db4-2228-4275-8b54-16c16b7b098b%27%29&api-version=1.6
+    uri: https://graph.windows.net/00000000-0000-0000-0000-000000000000/servicePrincipals?$filter=servicePrincipalNames%2Fany%28c%3Ac%20eq%20%274976df7f-e541-4224-bec7-698cee881a7d%27%29&api-version=1.6
   response:
     body:
-      string: '{"odata.metadata":"https://graph.windows.net/00000000-0000-0000-0000-000000000000/$metadata#directoryObjects","value":[{"odata.type":"Microsoft.DirectoryServices.ServicePrincipal","objectType":"ServicePrincipal","objectId":"1fcec20b-4c56-4a7a-b08b-05303a87ad97","deletionTimestamp":null,"accountEnabled":true,"addIns":[],"alternativeNames":[],"appDisplayName":"clitest000002","appId":"1a807db4-2228-4275-8b54-16c16b7b098b","applicationTemplateId":null,"appOwnerTenantId":"54826b22-38d6-4fb2-bad9-b7b93a3e9c5a","appRoleAssignmentRequired":false,"appRoles":[],"displayName":"clitest000002","errorUrl":null,"homepage":"https://clitest000002","informationalUrls":{"termsOfService":null,"support":null,"privacy":null,"marketing":null},"keyCredentials":[],"logoutUrl":null,"notificationEmailAddresses":[],"oauth2Permissions":[{"adminConsentDescription":"Allow
+      string: '{"odata.metadata":"https://graph.windows.net/00000000-0000-0000-0000-000000000000/$metadata#directoryObjects","value":[{"odata.type":"Microsoft.DirectoryServices.ServicePrincipal","objectType":"ServicePrincipal","objectId":"7d5393f1-dd02-488b-923a-a0b30fee8668","deletionTimestamp":null,"accountEnabled":true,"addIns":[],"alternativeNames":[],"appDisplayName":"clitest000002","appId":"4976df7f-e541-4224-bec7-698cee881a7d","applicationTemplateId":null,"appOwnerTenantId":"72f988bf-86f1-41af-91ab-2d7cd011db47","appRoleAssignmentRequired":false,"appRoles":[],"displayName":"clitest000002","errorUrl":null,"homepage":"https://clitest000002","informationalUrls":{"termsOfService":null,"support":null,"privacy":null,"marketing":null},"keyCredentials":[],"logoutUrl":null,"notificationEmailAddresses":[],"oauth2Permissions":[{"adminConsentDescription":"Allow
         the application to access clitest000002 on behalf of the signed-in user.","adminConsentDisplayName":"Access
-        clitest000002","id":"7b6444d4-8982-4bc5-be19-51a5ad6e1ffd","isEnabled":true,"type":"User","userConsentDescription":"Allow
+        clitest000002","id":"b122e91f-80c3-4623-ba36-389a5f7353c1","isEnabled":true,"type":"User","userConsentDescription":"Allow
         the application to access clitest000002 on your behalf.","userConsentDisplayName":"Access
-        clitest000002","value":"user_impersonation"}],"passwordCredentials":[],"preferredSingleSignOnMode":null,"preferredTokenSigningKeyEndDateTime":null,"preferredTokenSigningKeyThumbprint":null,"publisherName":"AzureSDKTeam","replyUrls":[],"samlMetadataUrl":null,"samlSingleSignOnSettings":null,"servicePrincipalNames":["http://clitest000002","1a807db4-2228-4275-8b54-16c16b7b098b"],"servicePrincipalType":"Application","signInAudience":"AzureADMyOrg","tags":[],"tokenEncryptionKeyId":null}]}'
-    headers:
-      access-control-allow-origin:
-      - '*'
-      cache-control:
-      - no-cache
-      content-length:
-      - '1749'
-      content-type:
-      - application/json; odata=minimalmetadata; streaming=true; charset=utf-8
-      dataserviceversion:
-      - 3.0;
-      date:
-      - Thu, 02 May 2019 17:51:46 GMT
-      duration:
-      - '573998'
-      expires:
-      - '-1'
-      ocp-aad-diagnostics-server-name:
-      - 5uQDuWNQfMZyayPDO2FzgKiYgsjpZMmhw8GRP+g4gGA=
-      ocp-aad-session-key:
-      - daHKR-jpq8C5uSOQPu3vpWOeKKJiG9WpC7RlxGY5-QWIcNWqGCHvPeCZccQ3aJOrkePsPy1cS9nCQdw1dWsIFNKvvCon2w3cYTfLFH1HsZnQqMQ7oDsFdYAYOmWug5tQt0kdARmW8johwVRos9QpWQ.O37WrhBwOqCqYGIpfPSROC77XmbYo-4BUxavacu8Zjk
-      pragma:
-      - no-cache
-      request-id:
-      - 888b8db9-2d87-4a16-a594-63f529abee0c
-      strict-transport-security:
-      - max-age=31536000; includeSubDomains
-      x-aspnet-version:
-      - 4.0.30319
-      x-ms-dirapi-data-contract-version:
-      - '1.6'
-      x-powered-by:
-      - ASP.NET
-    status:
-      code: 200
-      message: OK
-- request:
-    body: null
-    headers:
-      Accept:
-      - application/json
-      Accept-Encoding:
-      - gzip, deflate
-      CommandName:
-      - ad sp delete
-      Connection:
-      - keep-alive
-      ParameterSetName:
-      - --id
-      User-Agent:
-      - python/3.7.2 (Darwin-18.5.0-x86_64-i386-64bit) msrest/0.6.6 msrest_azure/0.6.0
-        azure-graphrbac/0.60.0 Azure-SDK-For-Python AZURECLI/2.0.63
-      accept-language:
-      - en-US
-    method: GET
-    uri: https://graph.windows.net/00000000-0000-0000-0000-000000000000/servicePrincipals/1fcec20b-4c56-4a7a-b08b-05303a87ad97?api-version=1.6
-  response:
-    body:
-      string: '{"odata.metadata":"https://graph.windows.net/00000000-0000-0000-0000-000000000000/$metadata#directoryObjects/@Element","odata.type":"Microsoft.DirectoryServices.ServicePrincipal","objectType":"ServicePrincipal","objectId":"1fcec20b-4c56-4a7a-b08b-05303a87ad97","deletionTimestamp":null,"accountEnabled":true,"addIns":[],"alternativeNames":[],"appDisplayName":"clitest000002","appId":"1a807db4-2228-4275-8b54-16c16b7b098b","applicationTemplateId":null,"appOwnerTenantId":"54826b22-38d6-4fb2-bad9-b7b93a3e9c5a","appRoleAssignmentRequired":false,"appRoles":[],"displayName":"clitest000002","errorUrl":null,"homepage":"https://clitest000002","informationalUrls":{"termsOfService":null,"support":null,"privacy":null,"marketing":null},"keyCredentials":[],"logoutUrl":null,"notificationEmailAddresses":[],"oauth2Permissions":[{"adminConsentDescription":"Allow
-        the application to access clitest000002 on behalf of the signed-in user.","adminConsentDisplayName":"Access
-        clitest000002","id":"7b6444d4-8982-4bc5-be19-51a5ad6e1ffd","isEnabled":true,"type":"User","userConsentDescription":"Allow
-        the application to access clitest000002 on your behalf.","userConsentDisplayName":"Access
-        clitest000002","value":"user_impersonation"}],"passwordCredentials":[],"preferredSingleSignOnMode":null,"preferredTokenSigningKeyEndDateTime":null,"preferredTokenSigningKeyThumbprint":null,"publisherName":"AzureSDKTeam","replyUrls":[],"samlMetadataUrl":null,"samlSingleSignOnSettings":null,"servicePrincipalNames":["http://clitest000002","1a807db4-2228-4275-8b54-16c16b7b098b"],"servicePrincipalType":"Application","signInAudience":"AzureADMyOrg","tags":[],"tokenEncryptionKeyId":null}'
+        clitest000002","value":"user_impersonation"}],"passwordCredentials":[],"preferredSingleSignOnMode":null,"preferredTokenSigningKeyEndDateTime":null,"preferredTokenSigningKeyThumbprint":null,"publisherName":"Microsoft","replyUrls":[],"samlMetadataUrl":null,"samlSingleSignOnSettings":null,"servicePrincipalNames":["http://clitest000002","4976df7f-e541-4224-bec7-698cee881a7d"],"servicePrincipalType":"Application","signInAudience":"AzureADMyOrg","tags":[],"tokenEncryptionKeyId":null}]}'
     headers:
       access-control-allow-origin:
       - '*'
@@ -2485,19 +2470,19 @@ interactions:
       dataserviceversion:
       - 3.0;
       date:
-      - Thu, 02 May 2019 17:51:45 GMT
+      - Mon, 13 May 2019 23:56:09 GMT
       duration:
-      - '595628'
+      - '725262'
       expires:
       - '-1'
       ocp-aad-diagnostics-server-name:
-      - DAEEhUUzhQ8pu+4OxvItbpuvqegmLWoSgzWL1kkCnyk=
+      - qZIv9ellq3w2fi4Frv5Uk50GFg2QtOwXyXvP/LyXimo=
       ocp-aad-session-key:
-      - tA-YSW29X-bCyYtyTTc8MegXQPhQMkHm-Bvg7aDa-ehFxbdLJoYAL1NWvxdHseNE6xAejfRNpcRZ5cOEZdI7nMNk80o9RJ0WALZN_HPEilVtpCofRmCRGwWdyEpozpm24N4SuwMdCs2YqibN1AdqZg.oEl6X1G_TN4hKNvBHuV67CE5FMetjlqvV2Uaua4Vjoo
+      - N9haxyj0qCVX7hCLWgvBc9kC2751LPZVqay0iJVoxCKg0AZOX9NIgtIfMNFJa4_MKJGr4VeJ3JBrMW9HM6MV65bL0BubYWYMv15jMidUi-SK0sYE3jjmDzJJ_lM3xQBOQs1dPR6LDq2vjnYFoGeIRQ.JohQkAlIOu9CDem4R1r4jtAWGz8t1GJ986ry8O6Dp1U
       pragma:
       - no-cache
       request-id:
-      - e7ebf9de-5a72-4d4f-a7b0-acc4a5f19a30
+      - 1ddef654-1e22-4334-b6d9-49c8cb06c120
       strict-transport-security:
       - max-age=31536000; includeSubDomains
       x-aspnet-version:
@@ -2524,43 +2509,106 @@ interactions:
       - --id
       User-Agent:
       - python/3.7.2 (Darwin-18.5.0-x86_64-i386-64bit) msrest/0.6.6 msrest_azure/0.6.0
-        azure-graphrbac/0.60.0 Azure-SDK-For-Python AZURECLI/2.0.63
+        azure-graphrbac/0.60.0 Azure-SDK-For-Python AZURECLI/2.0.64
+      accept-language:
+      - en-US
+    method: GET
+    uri: https://graph.windows.net/00000000-0000-0000-0000-000000000000/servicePrincipals/7d5393f1-dd02-488b-923a-a0b30fee8668?api-version=1.6
+  response:
+    body:
+      string: '{"odata.metadata":"https://graph.windows.net/00000000-0000-0000-0000-000000000000/$metadata#directoryObjects/@Element","odata.type":"Microsoft.DirectoryServices.ServicePrincipal","objectType":"ServicePrincipal","objectId":"7d5393f1-dd02-488b-923a-a0b30fee8668","deletionTimestamp":null,"accountEnabled":true,"addIns":[],"alternativeNames":[],"appDisplayName":"clitest000002","appId":"4976df7f-e541-4224-bec7-698cee881a7d","applicationTemplateId":null,"appOwnerTenantId":"72f988bf-86f1-41af-91ab-2d7cd011db47","appRoleAssignmentRequired":false,"appRoles":[],"displayName":"clitest000002","errorUrl":null,"homepage":"https://clitest000002","informationalUrls":{"termsOfService":null,"support":null,"privacy":null,"marketing":null},"keyCredentials":[],"logoutUrl":null,"notificationEmailAddresses":[],"oauth2Permissions":[{"adminConsentDescription":"Allow
+        the application to access clitest000002 on behalf of the signed-in user.","adminConsentDisplayName":"Access
+        clitest000002","id":"b122e91f-80c3-4623-ba36-389a5f7353c1","isEnabled":true,"type":"User","userConsentDescription":"Allow
+        the application to access clitest000002 on your behalf.","userConsentDisplayName":"Access
+        clitest000002","value":"user_impersonation"}],"passwordCredentials":[],"preferredSingleSignOnMode":null,"preferredTokenSigningKeyEndDateTime":null,"preferredTokenSigningKeyThumbprint":null,"publisherName":"Microsoft","replyUrls":[],"samlMetadataUrl":null,"samlSingleSignOnSettings":null,"servicePrincipalNames":["http://clitest000002","4976df7f-e541-4224-bec7-698cee881a7d"],"servicePrincipalType":"Application","signInAudience":"AzureADMyOrg","tags":[],"tokenEncryptionKeyId":null}'
+    headers:
+      access-control-allow-origin:
+      - '*'
+      cache-control:
+      - no-cache
+      content-length:
+      - '1743'
+      content-type:
+      - application/json; odata=minimalmetadata; streaming=true; charset=utf-8
+      dataserviceversion:
+      - 3.0;
+      date:
+      - Mon, 13 May 2019 23:56:09 GMT
+      duration:
+      - '729891'
+      expires:
+      - '-1'
+      ocp-aad-diagnostics-server-name:
+      - pMP8f8RT8BuYgTu1dfMWey3W85KBh0EioUNuKG1c8Zw=
+      ocp-aad-session-key:
+      - a0zUQfblZqvBwWkvB75kaRD-8gj3Fw42hrpf0JBwGSR1v5Oy2hb0aEa2IbylMXPMKJkgRtVpdrBvQUVjB5XplPjv7Xp33au1R1RbwjiD1t8ar8Qp-E4b9eLMg7rp0c7E3mUExcBWDwe8w_4TBue0NA.92AOF98Y_z0Q_NLc8l_snbdg8G9NIQ4Qo5MRqzxYIVQ
+      pragma:
+      - no-cache
+      request-id:
+      - 9b200ba1-39a4-4262-b862-66414c8b87af
+      strict-transport-security:
+      - max-age=31536000; includeSubDomains
+      x-aspnet-version:
+      - 4.0.30319
+      x-ms-dirapi-data-contract-version:
+      - '1.6'
+      x-powered-by:
+      - ASP.NET
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      CommandName:
+      - ad sp delete
+      Connection:
+      - keep-alive
+      ParameterSetName:
+      - --id
+      User-Agent:
+      - python/3.7.2 (Darwin-18.5.0-x86_64-i386-64bit) msrest/0.6.6 msrest_azure/0.6.0
+        azure-graphrbac/0.60.0 Azure-SDK-For-Python AZURECLI/2.0.64
       accept-language:
       - en-US
     method: GET
     uri: https://graph.windows.net/00000000-0000-0000-0000-000000000000/applications?$filter=identifierUris%2Fany%28s%3As%20eq%20%27http%3A%2F%2Fclitest000002%27%29&api-version=1.6
   response:
     body:
-      string: '{"odata.metadata":"https://graph.windows.net/00000000-0000-0000-0000-000000000000/$metadata#directoryObjects","value":[{"odata.type":"Microsoft.DirectoryServices.Application","objectType":"Application","objectId":"991b2926-a746-41b5-aa1e-7a22beffb38b","deletionTimestamp":null,"acceptMappedClaims":null,"addIns":[],"appId":"1a807db4-2228-4275-8b54-16c16b7b098b","applicationTemplateId":null,"appRoles":[],"availableToOtherTenants":false,"displayName":"clitest000002","errorUrl":null,"groupMembershipClaims":null,"homepage":"https://clitest000002","identifierUris":["http://clitest000002"],"informationalUrls":{"termsOfService":null,"support":null,"privacy":null,"marketing":null},"isDeviceOnlyAuthSupported":null,"keyCredentials":[],"knownClientApplications":[],"logoutUrl":null,"logo@odata.mediaEditLink":"directoryObjects/991b2926-a746-41b5-aa1e-7a22beffb38b/Microsoft.DirectoryServices.Application/logo","logoUrl":null,"mainLogo@odata.mediaEditLink":"directoryObjects/991b2926-a746-41b5-aa1e-7a22beffb38b/Microsoft.DirectoryServices.Application/mainLogo","oauth2AllowIdTokenImplicitFlow":true,"oauth2AllowImplicitFlow":false,"oauth2AllowUrlPathMatching":false,"oauth2Permissions":[{"adminConsentDescription":"Allow
+      string: '{"odata.metadata":"https://graph.windows.net/00000000-0000-0000-0000-000000000000/$metadata#directoryObjects","value":[{"odata.type":"Microsoft.DirectoryServices.Application","objectType":"Application","objectId":"10907af9-fa00-418c-b6f0-b50ab8325fbc","deletionTimestamp":null,"acceptMappedClaims":null,"addIns":[],"appId":"4976df7f-e541-4224-bec7-698cee881a7d","applicationTemplateId":null,"appRoles":[],"availableToOtherTenants":false,"displayName":"clitest000002","errorUrl":null,"groupMembershipClaims":null,"homepage":"https://clitest000002","identifierUris":["http://clitest000002"],"informationalUrls":{"termsOfService":null,"support":null,"privacy":null,"marketing":null},"isDeviceOnlyAuthSupported":null,"keyCredentials":[],"knownClientApplications":[],"logoutUrl":null,"logo@odata.mediaEditLink":"directoryObjects/10907af9-fa00-418c-b6f0-b50ab8325fbc/Microsoft.DirectoryServices.Application/logo","logoUrl":null,"mainLogo@odata.mediaEditLink":"directoryObjects/10907af9-fa00-418c-b6f0-b50ab8325fbc/Microsoft.DirectoryServices.Application/mainLogo","oauth2AllowIdTokenImplicitFlow":true,"oauth2AllowImplicitFlow":false,"oauth2AllowUrlPathMatching":false,"oauth2Permissions":[{"adminConsentDescription":"Allow
         the application to access clitest000002 on behalf of the signed-in user.","adminConsentDisplayName":"Access
-        clitest000002","id":"7b6444d4-8982-4bc5-be19-51a5ad6e1ffd","isEnabled":true,"type":"User","userConsentDescription":"Allow
+        clitest000002","id":"b122e91f-80c3-4623-ba36-389a5f7353c1","isEnabled":true,"type":"User","userConsentDescription":"Allow
         the application to access clitest000002 on your behalf.","userConsentDisplayName":"Access
-        clitest000002","value":"user_impersonation"}],"oauth2RequirePostResponse":false,"optionalClaims":null,"orgRestrictions":[],"parentalControlSettings":{"countriesBlockedForMinors":[],"legalAgeGroupRule":"Allow"},"passwordCredentials":[{"customKeyIdentifier":"//5yAGIAYQBjAA==","endDate":"2020-05-02T17:39:39.84008Z","keyId":"c2ca8adb-f379-4c25-8a51-fbfca12c2fad","startDate":"2019-05-02T17:39:39.84008Z","value":null}],"publicClient":null,"publisherDomain":"AzureSDKTeam.onmicrosoft.com","recordConsentConditions":null,"replyUrls":[],"requiredResourceAccess":[],"samlMetadataUrl":null,"signInAudience":"AzureADMyOrg","tokenEncryptionKeyId":null}]}'
+        clitest000002","value":"user_impersonation"}],"oauth2RequirePostResponse":false,"optionalClaims":null,"orgRestrictions":[],"parentalControlSettings":{"countriesBlockedForMinors":[],"legalAgeGroupRule":"Allow"},"passwordCredentials":[{"customKeyIdentifier":"//5yAGIAYQBjAA==","endDate":"2020-05-13T23:43:45.323433Z","keyId":"ecca221e-e3fc-4aa2-a5a0-f257f0a5a7f8","startDate":"2019-05-13T23:43:45.323433Z","value":null}],"publicClient":null,"publisherDomain":"microsoft.onmicrosoft.com","recordConsentConditions":null,"replyUrls":[],"requiredResourceAccess":[],"samlMetadataUrl":null,"signInAudience":"AzureADMyOrg","tokenEncryptionKeyId":null}]}'
     headers:
       access-control-allow-origin:
       - '*'
       cache-control:
       - no-cache
       content-length:
-      - '2260'
+      - '2259'
       content-type:
       - application/json; odata=minimalmetadata; streaming=true; charset=utf-8
       dataserviceversion:
       - 3.0;
       date:
-      - Thu, 02 May 2019 17:51:46 GMT
+      - Mon, 13 May 2019 23:56:10 GMT
       duration:
-      - '572371'
+      - '788394'
       expires:
       - '-1'
       ocp-aad-diagnostics-server-name:
-      - 6fg+R91TudKTiH8ukAn6DjKOEcAdu3Q+jEgq6nJAxfA=
+      - NecIdAbtcl2G5DavAD0ay+NyJ0bZ8m4qvkKAOpQmV0w=
       ocp-aad-session-key:
-      - ojekrZSfkldYjwGlMQjd9nBJ2_ZZ9vdn-5KgFhYWWQM3zTV7eIVgTKVDYAw6s7J04slJsZxdbVWBzIOnXqaae5JzO8Iy0NInt3bugd2hFJ7Bn5333WpMDU1B07q8INO8bc5P9XgGvNj2VgFucjlk0A.Xfz09HPRm3ZWmDQMgv85KT26-0_JQV_TV695E1Y9XVQ
+      - d6Yko8xYNvUOkO-8Gycyy_Tkq4HYv6eEh0nwHSsSAin5y7297xrmjkSLYG_K-VvWv4IeeO9c9lfuTL9yPdSvXNsQBQAF0h2TLNwTXGhyH15lEMUtPEMow3xnIZlWIhrsekHIz39WBgdSRR3Obo4HdQ.N33-ixkzsuGPDTQgG6_AqK8iZp27nwzJ68e_aLquAJc
       pragma:
       - no-cache
       request-id:
-      - 97aa3800-0e06-4479-8abe-1c6cc74f040b
+      - c33f9844-fb82-4609-ab50-6f5e1c24c754
       strict-transport-security:
       - max-age=31536000; includeSubDomains
       x-aspnet-version:
@@ -2587,43 +2635,43 @@ interactions:
       - --id
       User-Agent:
       - python/3.7.2 (Darwin-18.5.0-x86_64-i386-64bit) msrest/0.6.6 msrest_azure/0.6.0
-        azure-graphrbac/0.60.0 Azure-SDK-For-Python AZURECLI/2.0.63
+        azure-graphrbac/0.60.0 Azure-SDK-For-Python AZURECLI/2.0.64
       accept-language:
       - en-US
     method: GET
-    uri: https://graph.windows.net/00000000-0000-0000-0000-000000000000/servicePrincipals?$filter=servicePrincipalNames%2Fany%28c%3Ac%20eq%20%271a807db4-2228-4275-8b54-16c16b7b098b%27%29&api-version=1.6
+    uri: https://graph.windows.net/00000000-0000-0000-0000-000000000000/servicePrincipals?$filter=servicePrincipalNames%2Fany%28c%3Ac%20eq%20%274976df7f-e541-4224-bec7-698cee881a7d%27%29&api-version=1.6
   response:
     body:
-      string: '{"odata.metadata":"https://graph.windows.net/00000000-0000-0000-0000-000000000000/$metadata#directoryObjects","value":[{"odata.type":"Microsoft.DirectoryServices.ServicePrincipal","objectType":"ServicePrincipal","objectId":"1fcec20b-4c56-4a7a-b08b-05303a87ad97","deletionTimestamp":null,"accountEnabled":true,"addIns":[],"alternativeNames":[],"appDisplayName":"clitest000002","appId":"1a807db4-2228-4275-8b54-16c16b7b098b","applicationTemplateId":null,"appOwnerTenantId":"54826b22-38d6-4fb2-bad9-b7b93a3e9c5a","appRoleAssignmentRequired":false,"appRoles":[],"displayName":"clitest000002","errorUrl":null,"homepage":"https://clitest000002","informationalUrls":{"termsOfService":null,"support":null,"privacy":null,"marketing":null},"keyCredentials":[],"logoutUrl":null,"notificationEmailAddresses":[],"oauth2Permissions":[{"adminConsentDescription":"Allow
+      string: '{"odata.metadata":"https://graph.windows.net/00000000-0000-0000-0000-000000000000/$metadata#directoryObjects","value":[{"odata.type":"Microsoft.DirectoryServices.ServicePrincipal","objectType":"ServicePrincipal","objectId":"7d5393f1-dd02-488b-923a-a0b30fee8668","deletionTimestamp":null,"accountEnabled":true,"addIns":[],"alternativeNames":[],"appDisplayName":"clitest000002","appId":"4976df7f-e541-4224-bec7-698cee881a7d","applicationTemplateId":null,"appOwnerTenantId":"72f988bf-86f1-41af-91ab-2d7cd011db47","appRoleAssignmentRequired":false,"appRoles":[],"displayName":"clitest000002","errorUrl":null,"homepage":"https://clitest000002","informationalUrls":{"termsOfService":null,"support":null,"privacy":null,"marketing":null},"keyCredentials":[],"logoutUrl":null,"notificationEmailAddresses":[],"oauth2Permissions":[{"adminConsentDescription":"Allow
         the application to access clitest000002 on behalf of the signed-in user.","adminConsentDisplayName":"Access
-        clitest000002","id":"7b6444d4-8982-4bc5-be19-51a5ad6e1ffd","isEnabled":true,"type":"User","userConsentDescription":"Allow
+        clitest000002","id":"b122e91f-80c3-4623-ba36-389a5f7353c1","isEnabled":true,"type":"User","userConsentDescription":"Allow
         the application to access clitest000002 on your behalf.","userConsentDisplayName":"Access
-        clitest000002","value":"user_impersonation"}],"passwordCredentials":[],"preferredSingleSignOnMode":null,"preferredTokenSigningKeyEndDateTime":null,"preferredTokenSigningKeyThumbprint":null,"publisherName":"AzureSDKTeam","replyUrls":[],"samlMetadataUrl":null,"samlSingleSignOnSettings":null,"servicePrincipalNames":["http://clitest000002","1a807db4-2228-4275-8b54-16c16b7b098b"],"servicePrincipalType":"Application","signInAudience":"AzureADMyOrg","tags":[],"tokenEncryptionKeyId":null}]}'
+        clitest000002","value":"user_impersonation"}],"passwordCredentials":[],"preferredSingleSignOnMode":null,"preferredTokenSigningKeyEndDateTime":null,"preferredTokenSigningKeyThumbprint":null,"publisherName":"Microsoft","replyUrls":[],"samlMetadataUrl":null,"samlSingleSignOnSettings":null,"servicePrincipalNames":["http://clitest000002","4976df7f-e541-4224-bec7-698cee881a7d"],"servicePrincipalType":"Application","signInAudience":"AzureADMyOrg","tags":[],"tokenEncryptionKeyId":null}]}'
     headers:
       access-control-allow-origin:
       - '*'
       cache-control:
       - no-cache
       content-length:
-      - '1749'
+      - '1746'
       content-type:
       - application/json; odata=minimalmetadata; streaming=true; charset=utf-8
       dataserviceversion:
       - 3.0;
       date:
-      - Thu, 02 May 2019 17:51:45 GMT
+      - Mon, 13 May 2019 23:56:09 GMT
       duration:
-      - '551608'
+      - '740151'
       expires:
       - '-1'
       ocp-aad-diagnostics-server-name:
-      - R24SEsKL6l8WwGja0LsRtb5gfSEzPaANsccbqgL6qjQ=
+      - 7dMU+33Cz+68qE5sK7ANGlhWJX2RrZSFfal152ZxuSk=
       ocp-aad-session-key:
-      - jyeCpRY9gAB1R7bbqDwhZk8oq7N1tNv17f5wmuc81lkVl3T_gnGk2UWFKcQerwxE4YbFvNB8cXrtjf-JNxW16NRrlsWKwkGizoXzI6gzxzZkevpT-vEYdwG_bx_T-JDUsZY919HUpeG6pNp6voaA7Q.YWMFtKULIG8J7O0n-iNKYhL_2vhgrU7aEOZpNE1H8d8
+      - h_kOaDX6HP5akRdnWawDrxOgOX3sVNrdGY5RQb2tAjkTq3fMoQP1HWPJRfSTCSXqcFJbrA_MQZIld0xFFaoGNEPtqOd5ZomGoJEo3G4p7fyUfaNyj2Gqsj_LJuyM2peqkQDG3on2ECFX5yvry4QyAQ.__d5HZRULdo4QkWy0hnGDYrSdjax3jUvbt-yc1zlRz0
       pragma:
       - no-cache
       request-id:
-      - b4accc39-c7a5-4203-9af2-3dc5ee536e76
+      - d224b3be-05cd-4dcd-bf70-12534f35e092
       strict-transport-security:
       - max-age=31536000; includeSubDomains
       x-aspnet-version:
@@ -2652,11 +2700,11 @@ interactions:
       - --id
       User-Agent:
       - python/3.7.2 (Darwin-18.5.0-x86_64-i386-64bit) msrest/0.6.6 msrest_azure/0.6.0
-        azure-mgmt-authorization/0.50.0 Azure-SDK-For-Python AZURECLI/2.0.63
+        azure-mgmt-authorization/0.50.0 Azure-SDK-For-Python AZURECLI/2.0.64
       accept-language:
       - en-US
     method: GET
-    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/providers/Microsoft.Authorization/roleAssignments?$filter=principalId%20eq%20%271fcec20b-4c56-4a7a-b08b-05303a87ad97%27&api-version=2018-01-01-preview
+    uri: https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/providers/Microsoft.Authorization/roleAssignments?$filter=principalId%20eq%20%277d5393f1-dd02-488b-923a-a0b30fee8668%27&api-version=2018-01-01-preview
   response:
     body:
       string: '{"value":[]}'
@@ -2668,7 +2716,7 @@ interactions:
       content-type:
       - application/json; charset=utf-8
       date:
-      - Thu, 02 May 2019 17:51:46 GMT
+      - Mon, 13 May 2019 23:56:10 GMT
       expires:
       - '-1'
       pragma:
@@ -2705,11 +2753,11 @@ interactions:
       - --id
       User-Agent:
       - python/3.7.2 (Darwin-18.5.0-x86_64-i386-64bit) msrest/0.6.6 msrest_azure/0.6.0
-        azure-graphrbac/0.60.0 Azure-SDK-For-Python AZURECLI/2.0.63
+        azure-graphrbac/0.60.0 Azure-SDK-For-Python AZURECLI/2.0.64
       accept-language:
       - en-US
     method: DELETE
-    uri: https://graph.windows.net/00000000-0000-0000-0000-000000000000/applications/991b2926-a746-41b5-aa1e-7a22beffb38b?api-version=1.6
+    uri: https://graph.windows.net/00000000-0000-0000-0000-000000000000/applications/10907af9-fa00-418c-b6f0-b50ab8325fbc?api-version=1.6
   response:
     body:
       string: ''
@@ -2719,19 +2767,19 @@ interactions:
       cache-control:
       - no-cache
       date:
-      - Thu, 02 May 2019 17:51:46 GMT
+      - Mon, 13 May 2019 23:56:10 GMT
       duration:
-      - '1833633'
+      - '3666160'
       expires:
       - '-1'
       ocp-aad-diagnostics-server-name:
-      - zPeOuJeNLZ5N5CAKU8XN6jsJ5sC6cSv6Gh6WpNy3E8g=
+      - gXfFarcv2ysN8TtqVPgD1PYEnzY+oOLIPXpP5S4Cj3o=
       ocp-aad-session-key:
-      - 9MZsksGwHMhTG5psxk6wksVt-NitVVBPXOZJh3zF8UWt-XP54V1Q-Q1CsHx7SnYCz-5SBV4993KXs5NrDseL4n8qP45L8Bd-J0VBZcwXpAkUn9Bv6zTUmLAK2blC3Vdc-Sdmb4GF4pU8RD4nbCdHkA.Cb9ut3MqWMiDZHml9iNcChIdYgo27_9Ih7QpKDO3VSM
+      - kg-RL_B_skBMi5Wm_7XO2j7tIEwgp5mEosuu0QaM7VpQoXn4nTIwOCCBZMqiWe3dpXZaUX5aAjvtfXnk7JTVuTachn441kp0QPTlsRyFL0uIKYZdFrGqHWGhrquyWY9ELrqIxJ5F6U4mOJFy1MQpnA.jYLJu5hDRM8l_lF2PchX0y6s9I0xjpGzMp9lP6xAAoA
       pragma:
       - no-cache
       request-id:
-      - 7f6705b5-673a-49b0-8264-4f3495cafcc3
+      - cad1223b-301e-48a4-a286-6c6c8f49aac0
       strict-transport-security:
       - max-age=31536000; includeSubDomains
       x-aspnet-version:
@@ -2760,7 +2808,7 @@ interactions:
       - --name --yes --no-wait
       User-Agent:
       - python/3.7.2 (Darwin-18.5.0-x86_64-i386-64bit) msrest/0.6.6 msrest_azure/0.6.0
-        resourcemanagementclient/2.1.0 Azure-SDK-For-Python AZURECLI/2.0.63
+        resourcemanagementclient/2.1.0 Azure-SDK-For-Python AZURECLI/2.0.64
       accept-language:
       - en-US
     method: DELETE
@@ -2774,11 +2822,11 @@ interactions:
       content-length:
       - '0'
       date:
-      - Thu, 02 May 2019 17:51:48 GMT
+      - Mon, 13 May 2019 23:56:13 GMT
       expires:
       - '-1'
       location:
-      - https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/operationresults/eyJqb2JJZCI6IlJFU09VUkNFR1JPVVBERUxFVElPTkpPQi1DTElURVNUREg0WEhJV0NSUy1FQVNUVVMiLCJqb2JMb2NhdGlvbiI6ImVhc3R1cyJ9?api-version=2018-05-01
+      - https://management.azure.com/subscriptions/00000000-0000-0000-0000-000000000000/operationresults/eyJqb2JJZCI6IlJFU09VUkNFR1JPVVBERUxFVElPTkpPQi1DTElURVNUWE5NTFY0SkVKMy1FQVNUVVMiLCJqb2JMb2NhdGlvbiI6ImVhc3R1cyJ9?api-version=2018-05-01
       pragma:
       - no-cache
       strict-transport-security:
